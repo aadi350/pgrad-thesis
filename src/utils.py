@@ -23,17 +23,18 @@ logging.basicConfig(format='%(asctime)s : Line: %(lineno)d - %(message)s', level
 def from_data(func):
     def wrapper(*args, **kwargs):
         os.chdir(DATA_PATH)
-        func(*args, **kwargs)
+        ret = func(*args, **kwargs)
         os.chdir(PROJ_PATH)
-
+        return ret
     return wrapper
 
 def from_res(func):
     def wrapper(*args, **kwargs):
         os.chdir(RES_PATH)
-        func(*args, **kwargs)
+        ret = func(*args, **kwargs)
         oc.chdir(PROJ_PATH)
-
+        return ret
+    return wrapper
 
 
 

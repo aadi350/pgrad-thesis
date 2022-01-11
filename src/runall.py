@@ -1,12 +1,10 @@
 import numpy as np
 import pandas as pd
 import rasterio as rs
-import cuspatial as cx
 import os
 import logging
 import numpy as np
 import pandas as pd
-import rasterio
 from rasterio.plot import show
 from tqdm import tqdm
 import matplotlib.pyplot as plt
@@ -33,11 +31,12 @@ logging.basicConfig(format='%(asctime)s : Line: %(lineno)d - %(message)s', level
 @from_data
 def read_geotiff(fp):
     #img = rasterio.open(fp)
+    logging.info(os.listdir())
     img = CuImage(fp)
     logging.info(img)
     return img
 
-img = CuImage('./data/before/pakistan_earthquake_2021/10300100BB64AB00.tif')
+img = read_geotiff('before/pakistan_earthquake_2021/10300100BB64AB00.tif')
 logging.info(img.is_loaded)        # True if image data is loaded & available.
 logging.info(img.device)           # A device type.
 logging.info(img.ndim)             # The number of dimensions.
