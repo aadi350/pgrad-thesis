@@ -7,3 +7,7 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 
 conda install -y rasterio tqdm
+
+# Updates
+## Jan-10
+- Original data (Maxar) is blurry and unlabelled, infeasible for MSc without labelling/ground 

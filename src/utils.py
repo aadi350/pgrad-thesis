@@ -25,7 +25,7 @@ def from_res(func):
     def wrapper(*args, **kwargs):
         os.chdir(RES_PATH)
         ret = func(*args, **kwargs)
-        oc.chdir(PROJ_PATH)
+        os.chdir(PROJ_PATH)
         return ret
     return wrapper
 
