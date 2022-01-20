@@ -1,6 +1,6 @@
 import os
 import logging
-
+import numpy as np
 
 DATA_PATH = '/home/aadi/projects/pgrad-thesis/data'
 RES_PATH = '/home/aadi/projects/pgrad-thesis/results'
@@ -28,6 +28,11 @@ def from_res(func):
         os.chdir(PROJ_PATH)
         return ret
     return wrapper
+
+
+def to_rgb(img: np.array):
+    '''Converts given image to RHB and normalized to [0,1]'''
+    raise NotImplementedError
 
 
 if __name__ == '__main__':
