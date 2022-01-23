@@ -11,3 +11,6 @@ conda install -y rasterio tqdm
 # Updates
 ## Jan-10
 - Original data (Maxar) is blurry and unlabelled, infeasible for MSc without labelling/ground 
+
+# Yes, I know there are better ways to do this
+- Get a single training loop done with BW images

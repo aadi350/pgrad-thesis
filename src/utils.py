@@ -30,6 +30,14 @@ def from_res(func):
     return wrapper
 
 
+def show_progress(it, milestones=1):
+    for i, x in enumerate(it):
+        yield x
+        processed = i + 1
+        if processed % milestones == 0:
+            logging.info('Processed %s elements' % processed)
+
+
 def to_rgb(img: np.array):
     '''Converts given image to RHB and normalized to [0,1]'''
     raise NotImplementedError
