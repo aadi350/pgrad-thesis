@@ -1,4 +1,5 @@
 import datetime
+import pdb
 from plotly import express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
@@ -41,7 +42,7 @@ io.use_plugin('pil')
 matplotlib.use('TkAgg')
 
 pp = pprint.PrettyPrinter(indent=4)
-#----------------------------------------------------------------------------------------------------#
+#--------------------------------------DATA PATHS AND LOGGING----------------------------------------#
 DATA_PATH = '/home/aadi/projects/pgrad-thesis/data'
 RES_PATH = '/home/aadi/projects/pgrad-thesis/results'
 PROJ_PATH = '/home/aadi/projects/pgrag-thesis'
@@ -60,6 +61,7 @@ latent_dim = 16
 
 
 if __name__ == '__main__':
+    #-----------------------------------DATA SETUP AND PREPROCESSING------------------------------------#
     TRAIN_DIR = 'data/train'
     VAL_DIR = 'data/val'
     TEST_DIR = 'data/test'
@@ -79,8 +81,8 @@ if __name__ == '__main__':
     train_diff = np.array([difference_function(b, a)
                           for (b, a) in zip(before_train, after_train)])
 
-    # single_grey = [cv.cvtColor(i, cv.COLOR_RGB2GRAY) for i in train_diff]
-    single_grey = [i[:, :, 2] for i in train_diff]
+    single_grey = [cv.cvtColor(i, cv.COLOR_RGB2GRAY) for i in train_diff]
+    # single_grey = [i[:, :, 2] for i in train_diff]
     single = train_diff[0]
     train_diff = train_diff[..., tf.newaxis]
 
@@ -108,6 +110,48 @@ if __name__ == '__main__':
     val_diff = val_diff[..., tf.newaxis]
     label_val = label_val[..., tf.newaxis]
 
+    def float_32(x): return (x/255.0).astype(np.float32)
+
+    #------------------------------------------LOSS FUNCTIONS/METRICS---------------------------------------------#
+
+    @tf.function
+    def dice_loss_fn(y_true, y_pred):
+        y_true = tf.cast(y_true, tf.float32)
+        y_pred = tf.math.sigmoid(y_pred)
+        numerator = 2 * tf.reduce_sum(y_true * y_pred)
+        denominator = tf.reduce_sum(y_true + y_pred)
+
+        return 1 - numerator / denominator
+
+    class DiceLoss(tf.keras.losses.Loss):
+        def call(self, y_true, y_pred):
+            y_true = tf.cast(y_true, tf.float32)
+            y_pred = tf.cast(y_pred, tf.float32)
+
+            numerator = 2 * tf.reduce_sum(y_true * y_pred)
+            denominator = tf.reduce_sum(y_true + y_pred)
+
+            return 1 - numerator / denominator
+
+    class DiceMetric(tf.keras.metrics.Metric):
+
+        def __init__(self, name='dice_loss_fn_metric', **kwargs):
+            super(DiceMetric, self).__init__(name=name, **kwargs)
+            self.dice = self.add_weight(name='numerator', initializer='zeros')
+
+        def update_state(self, y_true, y_pred, sample_weight=None):
+            y_true = tf.cast(y_true, tf.float32)
+            y_pred = tf.cast(y_pred, tf.float32)
+
+            numerator = 2 * tf.reduce_sum(y_true * y_pred)
+            denominator = tf.reduce_sum(y_true + y_pred)
+
+            self.dice.assign(1 - numerator / denominator)
+
+        def result(self):
+            return self.dice
+
+    #-----------------------------------------------MODEL DEFINITION----------------------------------------#
     # data shapes are 256x256x3
     INPUT_SHAPE = (256, 256, 1)
     IMAGE_H_W = (256, 256)
@@ -121,28 +165,30 @@ if __name__ == '__main__':
     outputs = tf.keras.layers.Reshape((256, 256))(dense_2)
     model = tf.keras.Model(inputs=inputs, outputs=outputs)
 
-    def float_32(x): return (x/255.0).astype(np.float32)
-
     single_grey = np.array([float_32(i) for i in single_grey])
     label_train = float_32(label_train)
-    out = tf.nn.sigmoid_cross_entropy_with_logits(
-        logits=single_grey, labels=label_train)
 
     # works (apparently)
     # also in src/metrics.py
+
     @tf.function
-    def loss_fn(logits,  labels):
+    def cross_entropy_loss_fn(logits,  labels):
         cross_ent = tf.nn.sigmoid_cross_entropy_with_logits(
             logits=logits, labels=labels)
         log_loss = -tf.reduce_sum(cross_ent, axis=[0, 1, 2])
         return -tf.reduce_mean(log_loss)
 
-    train_loss = tf.keras.metrics.Mean('train_loss', dtype=tf.float32)
+    train_loss = tf.keras.metrics.Mean(
+        'train_loss', dtype=tf.float32)  # mean of Dice Coefficient
     train_acc = tf.keras.metrics.BinaryCrossentropy(
         'train_accuracy')
-    # works
 
-    @tf.function
+    # initialize Dice for training step
+    train_dice = DiceMetric()
+    val_dice = DiceMetric()
+
+    # works
+    @ tf.function
     def train_step(model, input, labels, optimizer):
         """Executes one training step and returns the loss.
 
@@ -151,28 +197,27 @@ if __name__ == '__main__':
         """
         with tf.GradientTape() as tape:
             logits = model(input, training=True)
-            loss = loss_fn(logits, labels)
+            # Instantiating DiceLoss() is for passing into model constructor
+            loss = dice_loss_fn(logits, labels)
 
         grad = tape.gradient(loss, model.trainable_variables)
         optimizer.apply_gradients(zip(grad, model.trainable_variables))
 
         train_loss(loss)
-        train_acc(labels, logits)
-
+        train_dice(labels, logits)
         return loss
 
     # TODO
 
-    # def test_step(model, x_test, y_test):
-    #     predictions = model(x_test)
-    #     loss = loss_object(y_test, predictions)
+    @tf.function
+    def val_step(model, input, labels):
+        with tf.GradientTape() as tape:
+            logits = model(input, training=False)
+            loss = dice_loss_fn(labels, logits)
 
-    #     test_loss(loss)
-    #     test_accuracy(y_test, predictions)
+        val_dice(labels, logits)
 
     optimizer = tf.keras.optimizers.Adam(1e-4)
-
-    # train_step(model, single_grey[..., tf.newaxis], label_train, optimizer)
 
     # TensorBoard logging
     current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -181,6 +226,7 @@ if __name__ == '__main__':
     train_summary_writer = tf.summary.create_file_writer(train_log_dir)
     test_summary_writer = tf.summary.create_file_writer(test_log_dir)
 
+    #--------------------------------------------TRAINING LOOP---------------------------------------------#
     EPOCHS = 5000
     for epoch in range(EPOCHS):
         info(f'\nStart of epoch {epoch}')
@@ -191,12 +237,16 @@ if __name__ == '__main__':
 
         with train_summary_writer.as_default():
             tf.summary.scalar('loss', train_loss.result(), step=epoch)
-            tf.summary.scalar('accuracy', train_acc.result(), step=epoch)
+            tf.summary.scalar('dice', train_dice.result(), step=epoch)
+
+        # val_step(
+        #    model, single_grey[..., tf.newaxis], label_val
+        # )
 
         template = 'Epoch {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'
         print(template.format(epoch+1,
                               train_loss.result(),
-                              train_acc.result()*100,
+                              train_dice.result(),
                               None,  # test_loss.result(),
-                              None))  # test_accuracy.result()*100))
+                              None,))  # val_dice.result()))  # test_accuracy.result()*100))
         # TODO add validation

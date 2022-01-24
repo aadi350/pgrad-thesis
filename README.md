@@ -14,6 +14,9 @@ conda install -y rasterio tqdm
 
 
 # Experiment Managment/Tracking
+## General Notes
+- Dice coefficient (and focal loss) used to evaluate performance, NOT accuracy
+
 
 # Yes, I know there are better ways to do this
 - Get a single training loop done with BW images
