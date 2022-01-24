@@ -107,6 +107,8 @@ if __name__ == '__main__':
 
     val_diff = np.array([difference_function(b, a)
                         for (b, a) in zip(before_train, after_train)])
+
+    single_grey_val = [cv.cvtColor(i, cv.COLOR_RGB2GRAY) for i in val_diff]
     val_diff = val_diff[..., tf.newaxis]
     label_val = label_val[..., tf.newaxis]
 
@@ -166,7 +168,9 @@ if __name__ == '__main__':
     model = tf.keras.Model(inputs=inputs, outputs=outputs)
 
     single_grey = np.array([float_32(i) for i in single_grey])
+    single_grey_val = np.array([float_32(i) for i in single_grey_val])
     label_train = float_32(label_train)
+    label_val = float_32(label_val)
 
     # works (apparently)
     # also in src/metrics.py
@@ -207,8 +211,6 @@ if __name__ == '__main__':
         train_dice(labels, logits)
         return loss
 
-    # TODO
-
     @tf.function
     def val_step(model, input, labels):
         with tf.GradientTape() as tape:
@@ -222,9 +224,9 @@ if __name__ == '__main__':
     # TensorBoard logging
     current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     train_log_dir = 'logs/gradient_tape/' + current_time + '/train'
-    test_log_dir = 'logs/gradient_tape/' + current_time + '/test'
+    val_log_dir = 'logs/gradient_tape/' + current_time + '/val'
     train_summary_writer = tf.summary.create_file_writer(train_log_dir)
-    test_summary_writer = tf.summary.create_file_writer(test_log_dir)
+    val_summary_writer = tf.summary.create_file_writer(val_log_dir)
 
     #--------------------------------------------TRAINING LOOP---------------------------------------------#
     EPOCHS = 5000
@@ -239,14 +241,17 @@ if __name__ == '__main__':
             tf.summary.scalar('loss', train_loss.result(), step=epoch)
             tf.summary.scalar('dice', train_dice.result(), step=epoch)
 
-        # val_step(
-        #    model, single_grey[..., tf.newaxis], label_val
-        # )
+        # TODO fix dimensions for single_grey_val and label_val to match
+        val_step(
+            model, single_grey_val[..., tf.newaxis], label_val
+        )
 
-        template = 'Epoch {}, Loss: {}, Accuracy: {}, Test Loss: {}, Test Accuracy: {}'
+        with val_summary_writer.as_default():
+            tf.summary.scalar('val_dice', val_dice.result(), step=epoch)
+
+        template = 'Epoch {}, Loss: {}, Accuracy: {}, Val Loss: {}, Val Accuracy: {}'
         print(template.format(epoch+1,
                               train_loss.result(),
                               train_dice.result(),
                               None,  # test_loss.result(),
-                              None,))  # val_dice.result()))  # test_accuracy.result()*100))
-        # TODO add validation
+                              val_dice.result()))  # test_accuracy.result()*100))
