@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.12-1-MANJARO-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-24T12:58:47.050409",
+    "startedAt": "2022-01-24T12:58:45.623621",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/storage/projects/pgrad-thesis/src/runall.py",
+    "codePath": "src/runall.py",
+    "git": {
+        "remote": "git@github.com:aadi350/pgrad-thesis.git",
+        "commit": "d6330d130fbdc530dc1b952bda5ff295f2247b02"
+    },
+    "email": "a.aadi380@gmail.com",
+    "root": "/storage/projects/pgrad-thesis",
+    "host": "r10-manjaro",
+    "username": "aadi",
+    "executable": "/home/aadi/miniconda3/envs/pgrad-thesis/bin/python"
+}

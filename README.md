@@ -19,4 +19,5 @@ conda install -y rasterio tqdm
 
 
 # Yes, I know there are better ways to do this
-- Get a single training loop done with BW images
+- [x] Get a single training loop done with BW images
+- [x] Add validation step to training loop

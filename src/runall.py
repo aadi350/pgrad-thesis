@@ -1,3 +1,5 @@
+from re import I
+import wandb
 import datetime
 import pdb
 from plotly import express as px
@@ -34,6 +36,8 @@ from tensorflow.keras.datasets import fashion_mnist
 
 from tensorflow.keras.models import Model
 
+wandb.init(project="pgrad-thesis", entity="aadi350")
+
 gpu_devices = tf.config.experimental.list_physical_devices('GPU')
 for device in gpu_devices:
     tf.config.experimental.set_memory_growth(device, True)
@@ -61,12 +65,23 @@ latent_dim = 16
 
 
 if __name__ == '__main__':
+
+    #-----------------------------------------------MODEL CONFIG/PARAMS----------------------------------------#
+
+    LEARNING_RATE = 1e-3
+    EPOCHS = 1000
+    N = 200
+    wandb.config = {
+        "learning_rate": LEARNING_RATE,
+        "epochs": EPOCHS,
+        "batch_size": None,
+        "n_samples": N,
+        "color": 'greyscale'
+    }
     #-----------------------------------DATA SETUP AND PREPROCESSING------------------------------------#
     TRAIN_DIR = 'data/train'
     VAL_DIR = 'data/val'
     TEST_DIR = 'data/test'
-    N = 240
-
     train_before_list = os.listdir(TRAIN_DIR + '/time1')[:N]
     train_after_list = os.listdir(TRAIN_DIR + '/time2')[:N]
     train_label_list = os.listdir(TRAIN_DIR + '/label')[:N]
@@ -93,7 +108,7 @@ if __name__ == '__main__':
     fig.add_trace(
         px.imshow(label_train[3], binary_string=True, aspect='equal').data[0], row=1, col=4)
 
-    fig.show()
+    # fig.show()
     val_before_list = os.listdir(VAL_DIR + '/time1')[:N]
     val_after_list = os.listdir(VAL_DIR + '/time2')[:N]
     val_label_list = os.listdir(VAL_DIR + '/label')[:N]
@@ -152,6 +167,7 @@ if __name__ == '__main__':
             return self.dice
 
     #-----------------------------------------------MODEL DEFINITION----------------------------------------#
+
     # data shapes are 256x256x3
     INPUT_SHAPE = (256, 256, 1)
     IMAGE_H_W = (256, 256)
@@ -217,7 +233,7 @@ if __name__ == '__main__':
 
         val_dice(labels, logits)
 
-    optimizer = tf.keras.optimizers.Adam(1e-4)
+    optimizer = tf.keras.optimizers.Adam(LEARNING_RATE)
 
     # TensorBoard logging
     current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -227,7 +243,6 @@ if __name__ == '__main__':
     val_summary_writer = tf.summary.create_file_writer(val_log_dir)
 
     #--------------------------------------------TRAINING LOOP---------------------------------------------#
-    EPOCHS = 5000
     for epoch in range(EPOCHS):
         info(f'\nStart of epoch {epoch}')
 
@@ -245,6 +260,12 @@ if __name__ == '__main__':
 
         with val_summary_writer.as_default():
             tf.summary.scalar('val_dice', val_dice.result(), step=epoch)
+
+        wandb.log({
+            'train_loss': train_loss.result(),
+            'train_dice': train_dice.result(),
+            'val_dice': val_dice.result()
+        })
 
         template = 'Epoch {}, Loss: {}, Accuracy: {}, Val Loss: {}, Val Accuracy: {}'
         print(template.format(epoch+1,

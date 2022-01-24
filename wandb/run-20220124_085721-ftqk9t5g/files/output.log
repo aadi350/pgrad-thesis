@@ -1,0 +1,7 @@
+2022-01-24 08:57:25.486841: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-24 08:57:25.490021: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-24 08:57:25.490189: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+Traceback (most recent call last):
+  File "/storage/projects/pgrad-thesis/src/runall.py", line 73, in <module>
+    train_before_list = os.listdir(TRAIN_DIR + '/time1')[:N]
+NameError: name 'N' is not defined
