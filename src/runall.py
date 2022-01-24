@@ -82,7 +82,6 @@ if __name__ == '__main__':
                           for (b, a) in zip(before_train, after_train)])
 
     single_grey = [cv.cvtColor(i, cv.COLOR_RGB2GRAY) for i in train_diff]
-    # single_grey = [i[:, :, 2] for i in train_diff]
     single = train_diff[0]
     train_diff = train_diff[..., tf.newaxis]
 
@@ -110,7 +109,6 @@ if __name__ == '__main__':
 
     single_grey_val = [cv.cvtColor(i, cv.COLOR_RGB2GRAY) for i in val_diff]
     val_diff = val_diff[..., tf.newaxis]
-    label_val = label_val[..., tf.newaxis]
 
     def float_32(x): return (x/255.0).astype(np.float32)
 
