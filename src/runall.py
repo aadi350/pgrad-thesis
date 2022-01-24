@@ -239,7 +239,6 @@ if __name__ == '__main__':
             tf.summary.scalar('loss', train_loss.result(), step=epoch)
             tf.summary.scalar('dice', train_dice.result(), step=epoch)
 
-        # TODO fix dimensions for single_grey_val and label_val to match
         val_step(
             model, single_grey_val[..., tf.newaxis], label_val
         )
