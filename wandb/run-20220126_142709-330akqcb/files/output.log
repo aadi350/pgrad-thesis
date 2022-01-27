@@ -1,0 +1,7 @@
+2022-01-26 14:27:13.465414: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-26 14:27:13.469198: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-26 14:27:13.469390: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+Traceback (most recent call last):
+  File "src/runall.py", line 135, in <module>
+    test_before_list = os.listdir(TEST_DIR + '/time1')[:N]
+NameError: name 'TEST_DIR' is not defined

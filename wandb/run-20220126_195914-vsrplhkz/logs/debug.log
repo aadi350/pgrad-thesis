@@ -1,0 +1,41 @@
+2022-01-26 19:59:14,968 INFO    MainThread:1298313 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-26 19:59:14,968 WARNING MainThread:1298313 [wandb_setup.py:_flush():71] could not save program above cwd: /home/aadi/projects/pgrad-thesis/src/runall.py
+2022-01-26 19:59:14,968 INFO    MainThread:1298313 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-26 19:59:14,968 INFO    MainThread:1298313 [wandb_init.py:_log_setup():371] Logging user logs to /storage/projects/pgrad-thesis/wandb/run-20220126_195914-vsrplhkz/logs/debug.log
+2022-01-26 19:59:14,968 INFO    MainThread:1298313 [wandb_init.py:_log_setup():372] Logging internal logs to /storage/projects/pgrad-thesis/wandb/run-20220126_195914-vsrplhkz/logs/debug-internal.log
+2022-01-26 19:59:14,968 INFO    MainThread:1298313 [wandb_init.py:init():404] calling init triggers
+2022-01-26 19:59:14,969 INFO    MainThread:1298313 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2022-01-26 19:59:14,969 INFO    MainThread:1298313 [wandb_init.py:init():460] starting backend
+2022-01-26 19:59:14,969 INFO    MainThread:1298313 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-26 19:59:14,981 INFO    MainThread:1298313 [backend.py:ensure_launched():216] starting backend process...
+2022-01-26 19:59:14,985 INFO    MainThread:1298313 [backend.py:ensure_launched():221] started backend process with pid: 1298419
+2022-01-26 19:59:14,986 INFO    MainThread:1298313 [wandb_init.py:init():469] backend started and connected
+2022-01-26 19:59:14,988 INFO    MainThread:1298313 [wandb_init.py:init():533] updated telemetry
+2022-01-26 19:59:15,000 INFO    MainThread:1298313 [wandb_init.py:init():563] communicating current version
+2022-01-26 19:59:16,036 INFO    MainThread:1298313 [wandb_init.py:init():568] got version response 
+2022-01-26 19:59:16,037 INFO    MainThread:1298313 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-26 19:59:16,392 INFO    MainThread:1298313 [wandb_init.py:init():606] starting run threads in backend
+2022-01-26 19:59:19,474 INFO    MainThread:1298313 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-26 19:59:19,475 INFO    MainThread:1298313 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2022-01-26 19:59:19,475 INFO    MainThread:1298313 [wandb_run.py:_redirect():1689] Redirecting console.
+2022-01-26 19:59:19,477 INFO    MainThread:1298313 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-26 19:59:19,477 INFO    MainThread:1298313 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-26 20:08:01,741 INFO    MainThread:1298313 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 0
+2022-01-26 20:08:01,743 INFO    MainThread:1298313 [wandb_run.py:_restore():1752] restore
+2022-01-26 20:08:04,073 INFO    MainThread:1298313 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 754
+  total_bytes: 754
+}
+
+2022-01-26 20:08:04,421 INFO    MainThread:1298313 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 754
+  total_bytes: 754
+}
+
