@@ -1,0 +1,3031 @@
+2022-01-27 20:14:35.295284: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.298457: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.298625: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.308578: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-27 20:14:35.309176: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.309403: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.309782: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.604371: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.604532: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.604653: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-01-27 20:14:35.604753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5850 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Ti, pci bus id: 0000:0b:00.0, compute capability: 8.6
+2022-01-27 20:14:35,627 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:35,629 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:35,630 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:35,631 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:35,633 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:35,634 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:35,635 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:35,636 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:35,637 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:35,638 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:35,639 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:35,640 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:35,642 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:35,643 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:35,644 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:35,645 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:35,647 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:35,648 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:35,649 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:35,650 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:35,651 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:35,653 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:35,654 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:35,655 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:35,656 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:35,657 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:35,658 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:35,660 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:35,661 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:35,662 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:35,663 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:35,664 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:35,665 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:35,666 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:35,667 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:35,669 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:35,670 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:35,671 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:35,672 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:35,673 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:35,674 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:35,676 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:35,677 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:35,678 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:35,679 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:35,680 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:35,681 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:35,683 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:35,684 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:35,685 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:35,686 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:35,687 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:35,688 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:35,689 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:35,690 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:35,692 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:35,693 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:35,694 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:35,695 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:35,697 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:35,698 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:35,699 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:35,700 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:35,701 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:35,702 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:35,704 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:35,705 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:35,706 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:35,707 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:35,708 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:35,709 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:35,710 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:35,711 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:35,712 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:35,714 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:35,715 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:35,716 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:35,717 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:35,718 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:35,719 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:35,720 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:35,721 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:35,722 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:35,723 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:35,724 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:35,725 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:35,726 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:35,728 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:35,729 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:35,730 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:35,731 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:35,732 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:35,733 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:35,734 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:35,735 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:35,736 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:35,737 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:35,738 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:35,739 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:35,740 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:35,742 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:35,743 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:35,744 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:35,745 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:35,746 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:35,747 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:35,748 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:35,749 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:35,751 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:35,752 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:35,753 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:35,754 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:35,755 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:35,756 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:35,757 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:35,758 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:35,760 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:35,761 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:35,762 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:35,763 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:35,764 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:35,765 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:35,766 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:35,782 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:35,784 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:35,785 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:35,786 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:35,787 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:35,788 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:35,789 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:35,790 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:35,791 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:35,792 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:35,793 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:35,795 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:35,796 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:35,797 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:35,798 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:35,799 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:35,800 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:35,801 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:35,802 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:35,803 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:35,804 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:35,805 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:35,806 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:35,808 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:35,809 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:35,810 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:35,811 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:35,812 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:35,813 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:35,814 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:35,815 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:35,817 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:35,818 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:35,819 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:35,820 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:35,821 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:35,822 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:35,823 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:35,824 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:35,826 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:35,827 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:35,828 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:35,829 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:35,830 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:35,831 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:35,832 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:35,834 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:35,835 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:35,836 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:35,837 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:35,838 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:35,839 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:35,841 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:35,842 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:35,843 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:35,844 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:35,845 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:35,846 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:35,847 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:35,849 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:35,850 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:35,851 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:35,852 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:35,853 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:35,854 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:35,855 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:35,857 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:35,858 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:35,859 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:35,860 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:35,861 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:35,863 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:35,864 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:35,865 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:35,866 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:35,867 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:35,868 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:35,870 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:35,871 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:35,872 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:35,873 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:35,874 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:35,875 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:35,877 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:35,878 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:35,879 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:35,880 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:35,881 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:35,882 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:35,883 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:35,885 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:35,886 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:35,887 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:35,888 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:35,889 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:35,890 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:35,891 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:35,893 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:35,894 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:35,895 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:35,896 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:35,897 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:35,899 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:35,900 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:35,901 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:35,902 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:35,903 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:35,904 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:35,905 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:35,906 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:35,907 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:35,909 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:35,910 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:35,911 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:35,912 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:35,914 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:35,915 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:35,916 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:35,917 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:35,918 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:35,919 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:35,920 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:35,921 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:35,922 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:35,923 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:35,924 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:35,926 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:35,927 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:35,928 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:35,929 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:35,930 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:35,931 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:35,932 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:35,934 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:35,935 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:35,936 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:35,937 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:35,938 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:35,939 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:35,940 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:35,941 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:35,942 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:35,943 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:35,944 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:35,946 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:35,947 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:35,948 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:35,949 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:35,950 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:35,951 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:35,952 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:35,953 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:35,954 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:35,955 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:35,956 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:35,957 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:35,959 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:35,960 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:35,961 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:35,962 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:35,963 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:35,964 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:35,965 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:35,966 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:35,967 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:35,968 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:35,969 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:35,970 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:35,971 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:35,973 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:35,974 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:35,975 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:35,976 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:35,977 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:35,978 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:35,979 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:35,980 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:35,989 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:35,990 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:35,991 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:35,992 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:35,993 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:35,994 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:35,995 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:35,997 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:35,998 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:35,999 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:36,000 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:36,001 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:36,002 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:36,003 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:36,004 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:36,005 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:36,006 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:36,007 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:36,008 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:36,009 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:36,010 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:36,012 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:36,013 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:36,014 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:36,015 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:36,016 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:36,017 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:36,018 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:36,019 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:36,021 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:36,022 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:36,023 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:36,024 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:36,025 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:36,026 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:36,027 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:36,028 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:36,029 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:36,030 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:36,031 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:36,033 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:36,034 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:36,035 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:36,036 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:36,037 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:36,038 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:36,039 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:36,040 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:36,041 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:36,042 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:36,043 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:36,044 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:36,046 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:36,047 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:36,048 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:36,049 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:36,050 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:36,051 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:36,052 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:36,053 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:36,055 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:36,056 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:36,057 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:36,058 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:36,059 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:36,060 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:36,061 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:36,062 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:36,064 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:36,065 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:36,066 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:36,067 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:36,068 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:36,069 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:36,070 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:36,071 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:36,072 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:36,073 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:36,074 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:36,076 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:36,077 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:36,078 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:36,079 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:36,080 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:36,081 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:36,082 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:36,084 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:36,085 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:36,086 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:36,087 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:36,088 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:36,089 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:36,090 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:36,091 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:36,092 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:36,094 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:36,095 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:36,096 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:36,097 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:36,098 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:36,099 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:36,100 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:36,101 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:36,102 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:36,103 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:36,104 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:36,106 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:36,107 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:36,108 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:36,109 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:36,110 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:36,111 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:36,113 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:36,114 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:36,115 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:36,116 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:36,117 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:36,118 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:36,119 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:36,120 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:36,121 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:36,122 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:36,123 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:36,124 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:36,126 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:36,127 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:36,128 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:36,129 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:36,130 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:36,131 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:36,132 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:36,133 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:36,134 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:36,135 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:36,136 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:36,138 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:36,139 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:36,140 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:36,141 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:36,142 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:36,144 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:36,145 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:36,146 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:36,147 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:36,148 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:36,149 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:36,150 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:36,151 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:36,152 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:36,154 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:36,155 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:36,156 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:36,157 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:36,158 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:36,159 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:36,160 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:36,161 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:36,162 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:36,163 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:36,164 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:36,166 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:36,167 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:36,168 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:36,169 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:36,170 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:36,171 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:36,172 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:36,173 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:36,174 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:36,175 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:36,176 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:36,177 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:36,178 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:36,180 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:36,181 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:36,182 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:36,183 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:36,184 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:36,185 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:36,186 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:36,187 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:36,188 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:36,190 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:36,191 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:36,192 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:36,194 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:36,195 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:36,196 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:36,197 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:36,198 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:36,199 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:36,200 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:36,202 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:36,203 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:36,204 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:36,205 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:36,206 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:36,207 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:36,208 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:36,210 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:36,211 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:36,212 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:36,213 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:36,214 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:36,215 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:36,216 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:36,217 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:36,218 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:36,219 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:36,220 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:36,221 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:36,223 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:36,224 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:36,225 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:36,226 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:36,227 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:36,228 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:36,229 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:36,230 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:36,231 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:36,232 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:36,233 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:36,234 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:36,235 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:36,237 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:36,238 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:36,239 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:36,240 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:36,241 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:36,242 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:36,243 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:36,244 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:36,245 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:36,246 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:36,247 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:36,248 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:36,250 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:36,251 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:36,252 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:36,253 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:36,254 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:36,255 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:36,256 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:36,257 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:36,258 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:36,259 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:36,260 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:36,261 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:36,263 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:36,264 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:36,265 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:36,266 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:36,267 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:36,268 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:36,269 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:36,270 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:36,271 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:36,273 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:36,274 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:36,275 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:36,276 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:36,277 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:36,278 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:36,279 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:36,280 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:36,281 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:36,361 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:36,397 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:36,399 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:36,400 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:36,401 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:36,402 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:36,404 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:36,405 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:36,407 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:36,408 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:36,409 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:36,411 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:36,412 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:36,413 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:36,414 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:36,416 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:36,417 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:36,418 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:36,420 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:36,421 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:36,422 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:36,424 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:36,425 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:36,426 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:36,427 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:36,429 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:36,430 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:36,431 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:36,432 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:36,434 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:36,435 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:36,436 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:36,437 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:36,438 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:36,446 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:36,446 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:36,447 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:36,447 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:36,447 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:36,448 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:36,448 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:36,448 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:36,448 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:36,449 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:36,449 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:36,449 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:36,450 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:36,450 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:36,450 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:36,451 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:36,451 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:36,451 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:36,452 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:36,452 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:36,452 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:36,452 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:36,453 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:36,453 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:36,453 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:36,454 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:36,454 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:36,454 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:36,455 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:36,455 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:36,455 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:36,455 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:36,456 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:36,456 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:36,456 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:36,457 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:36,457 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:36,457 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:36,458 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:36,458 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:36,458 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:36,459 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:36,459 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:36,459 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:36,459 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:36,460 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:36,460 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:36,460 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:36,461 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:36,461 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:36,461 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:36,462 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:36,462 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:36,462 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:36,462 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:36,463 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:36,463 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:36,463 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:36,464 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:36,464 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:36,464 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:36,465 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:36,465 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:36,465 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:36,465 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:36,466 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:36,466 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:36,466 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:36,467 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:36,467 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:36,467 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:36,468 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:36,468 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:36,468 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:36,468 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:36,469 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:36,469 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:36,469 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:36,470 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:36,470 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:36,470 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:36,471 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:36,471 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:36,471 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:36,471 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:36,472 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:36,472 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:36,472 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:36,473 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:36,473 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:36,473 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:36,474 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:36,474 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:36,474 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:36,474 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:36,475 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:36,475 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:36,475 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:36,476 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:36,476 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:36,476 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:36,477 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:36,477 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:36,477 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:36,477 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:36,478 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:36,478 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:36,478 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:36,479 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:36,479 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:36,479 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:36,480 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:36,480 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:36,480 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:36,480 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:36,481 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:36,481 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:36,481 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:36,482 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:36,482 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:36,482 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:36,483 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:36,483 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:36,483 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:36,483 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:36,484 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:36,484 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:36,484 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:36,485 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:36,485 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:36,485 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:36,486 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:36,486 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:36,486 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:36,486 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:36,487 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:36,487 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:36,487 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:36,488 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:36,488 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:36,488 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:36,489 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:36,489 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:36,490 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:36,490 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:36,490 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:36,491 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:36,491 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:36,491 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:36,491 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:36,492 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:36,492 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:36,492 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:36,493 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:36,493 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:36,493 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:36,494 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:36,494 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:36,494 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:36,494 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:36,495 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:36,495 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:36,495 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:36,496 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:36,496 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:36,496 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:36,497 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:36,497 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:36,497 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:36,497 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:36,498 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:36,498 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:36,498 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:36,499 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:36,499 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:36,499 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:36,500 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:36,500 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:36,500 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:36,500 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:36,501 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:36,501 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:36,501 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:36,502 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:36,502 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:36,502 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:36,503 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:36,503 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:36,503 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:36,503 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:36,504 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:36,504 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:36,504 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:36,505 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:36,505 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:36,505 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:36,506 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:36,506 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:36,506 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:36,506 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:36,507 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:36,507 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:36,507 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:36,508 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:36,508 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:36,508 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:36,509 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:36,509 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:36,509 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:36,510 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:36,510 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:36,510 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:36,511 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:36,511 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:36,511 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:36,512 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:36,512 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:36,512 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:36,512 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:36,513 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:36,513 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:36,513 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:36,514 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:36,514 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:36,514 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:36,515 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:36,515 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:36,515 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:36,515 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:36,516 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:36,516 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:36,516 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:36,517 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:36,517 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:36,517 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:36,518 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:36,518 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:36,518 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:36,518 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:36,519 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:36,519 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:36,519 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:36,520 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:36,520 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:36,520 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:36,521 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:36,521 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:36,521 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:36,521 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:36,522 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:36,522 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:36,522 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:36,523 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:36,523 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:36,523 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:36,524 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:36,524 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:36,524 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:36,525 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:36,525 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:36,525 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:36,526 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:36,526 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:36,526 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:36,527 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:36,527 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:36,527 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:36,528 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:36,528 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:36,528 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:36,528 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:36,529 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:36,529 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:36,529 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:36,530 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:36,530 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:36,530 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:36,531 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:36,531 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:36,531 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:36,531 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:36,532 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:36,532 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:36,532 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:36,533 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:36,533 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:36,533 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:36,534 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:36,534 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:36,534 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:36,534 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:36,535 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:36,535 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:36,535 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:36,536 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:36,536 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:36,536 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:36,537 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:36,537 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:36,537 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:36,565 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:36,566 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:36,567 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:36,568 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:36,570 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:36,571 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:36,572 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:36,573 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:36,574 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:36,575 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:36,576 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:36,577 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:36,578 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:36,579 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:36,581 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:36,582 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:36,583 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:36,584 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:36,585 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:36,586 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:36,587 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:36,588 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:36,589 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:36,590 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:36,591 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:36,593 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:36,594 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:36,595 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:36,596 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:36,597 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:36,598 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:36,599 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:36,600 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:36,601 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:36,602 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:36,604 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:36,605 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:36,606 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:36,607 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:36,608 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:36,609 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:36,611 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:36,612 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:36,613 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:36,614 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:36,615 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:36,616 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:36,617 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:36,618 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:36,619 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:36,620 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:36,621 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:36,622 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:36,624 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:36,625 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:36,626 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:36,627 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:36,628 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:36,629 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:36,630 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:36,631 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:36,632 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:36,633 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:36,634 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:36,635 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:36,636 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:36,638 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:36,639 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:36,640 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:36,641 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:36,642 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:36,643 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:36,644 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:36,645 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:36,646 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:36,647 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:36,649 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:36,650 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:36,651 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:36,652 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:36,653 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:36,654 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:36,655 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:36,657 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:36,658 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:36,659 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:36,660 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:36,661 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:36,662 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:36,663 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:36,664 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:36,665 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:36,666 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:36,667 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:36,668 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:36,669 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:36,671 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:36,672 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:36,673 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:36,674 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:36,675 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:36,676 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:36,677 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:36,678 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:36,679 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:36,680 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:36,682 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:36,683 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:36,684 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:36,685 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:36,686 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:36,687 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:36,688 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:36,689 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:36,690 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:36,691 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:36,692 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:36,694 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:36,695 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:36,696 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:36,697 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:36,698 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:36,699 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:36,700 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:36,701 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:36,702 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:36,703 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:36,704 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:36,706 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:36,707 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:36,708 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:36,709 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:36,710 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:36,711 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:36,712 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:36,713 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:36,714 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:36,715 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:36,716 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:36,717 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:36,719 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:36,720 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:36,721 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:36,722 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:36,723 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:36,724 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:36,725 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:36,726 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:36,728 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:36,729 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:36,730 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:36,731 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:36,732 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:36,733 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:36,735 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:36,736 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:36,737 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:36,738 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:36,739 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:36,740 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:36,741 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:36,743 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:36,744 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:36,745 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:36,746 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:36,747 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:36,748 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:36,750 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:36,751 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:36,752 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:36,753 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:36,754 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:36,755 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:36,757 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:36,758 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:36,759 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:36,760 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:36,761 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:36,762 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:36,763 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:36,765 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:36,766 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:36,767 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:36,768 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:36,769 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:36,770 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:36,771 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:36,773 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:36,774 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:36,775 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:36,776 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:36,777 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:36,778 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:36,779 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:36,781 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:36,782 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:36,783 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:36,784 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:36,785 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:36,786 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:36,787 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:36,789 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:36,790 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:36,791 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:36,792 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:36,793 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:36,794 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:36,795 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:36,797 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:36,798 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:36,799 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:36,800 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:36,801 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:36,802 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:36,803 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:36,804 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:36,805 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:36,806 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:36,807 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:36,808 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:36,809 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:36,811 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:36,812 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:36,813 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:36,814 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:36,815 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:36,816 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:36,817 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:36,818 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:36,819 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:36,820 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:36,821 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:36,822 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:36,823 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:36,825 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:36,826 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:36,827 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:36,828 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:36,829 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:36,830 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:36,831 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:36,832 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:36,833 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:36,834 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:36,836 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:36,837 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:36,838 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:36,839 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:36,840 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:36,841 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:36,842 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:36,843 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:36,845 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:36,846 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:36,847 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:36,848 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:36,849 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:36,850 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:36,851 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:36,852 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:36,853 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:36,854 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:36,855 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:36,856 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:36,858 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:36,859 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:36,860 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:36,861 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:36,862 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:36,863 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:36,865 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:36,866 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:36,867 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:36,868 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:36,869 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:36,870 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:36,871 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:36,873 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:36,874 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:36,875 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:36,876 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:36,878 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:36,879 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:36,880 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:36,881 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:36,882 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:36,883 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:36,885 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:36,886 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:36,887 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:36,888 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:36,889 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:36,890 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:36,891 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:36,893 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:36,894 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:36,895 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:36,896 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:36,961 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:36,962 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:36,971 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:36,973 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:36,974 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:36,976 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:36,977 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:36,978 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:36,979 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:36,980 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:36,981 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:36,982 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:36,983 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:36,984 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:36,986 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:36,987 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:36,988 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:36,989 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:36,990 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:36,991 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:36,992 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:36,994 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:36,995 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:36,996 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:36,997 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:36,998 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:36,999 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:37,000 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:37,001 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:37,002 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:37,003 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:37,004 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:37,005 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:37,007 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:37,008 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:37,009 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:37,010 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:37,011 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:37,012 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:37,013 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:37,014 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:37,015 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:37,017 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:37,018 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:37,019 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:37,020 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:37,021 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:37,022 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:37,023 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:37,024 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:37,025 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:37,027 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:37,028 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:37,029 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:37,030 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:37,031 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:37,032 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:37,033 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:37,034 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:37,035 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:37,036 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:37,038 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:37,039 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:37,040 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:37,041 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:37,042 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:37,043 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:37,044 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:37,045 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:37,046 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:37,048 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:37,049 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:37,050 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:37,051 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:37,052 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:37,053 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:37,054 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:37,055 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:37,056 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:37,057 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:37,058 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:37,060 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:37,061 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:37,062 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:37,063 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:37,066 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:37,067 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:37,068 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:37,069 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:37,070 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:37,071 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:37,072 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:37,073 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:37,074 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:37,076 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:37,077 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:37,078 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:37,079 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:37,080 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:37,081 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:37,082 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:37,083 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:37,084 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:37,085 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:37,086 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:37,087 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:37,089 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:37,090 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:37,091 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:37,092 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:37,093 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:37,094 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:37,095 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:37,096 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:37,097 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:37,099 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:37,100 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:37,101 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:37,102 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:37,103 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:37,104 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:37,105 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:37,106 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:37,107 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:37,108 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:37,110 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:37,111 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:37,112 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:37,113 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:37,114 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:37,115 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:37,116 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:37,117 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:37,118 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:37,120 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:37,121 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:37,122 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:37,123 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:37,124 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:37,126 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:37,127 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:37,128 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:37,129 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:37,130 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:37,131 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:37,132 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:37,134 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:37,135 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:37,136 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:37,137 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:37,138 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:37,139 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:37,140 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:37,141 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:37,143 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:37,144 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:37,145 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:37,146 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:37,147 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:37,148 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:37,150 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:37,151 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:37,152 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:37,153 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:37,154 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:37,155 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:37,157 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:37,158 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:37,159 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:37,160 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:37,161 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:37,163 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:37,164 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:37,165 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:37,166 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:37,167 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:37,168 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:37,169 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:37,170 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:37,172 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:37,173 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:37,174 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:37,175 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:37,176 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:37,178 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:37,179 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:37,180 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:37,181 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:37,182 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:37,184 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:37,185 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:37,186 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:37,187 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:37,188 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:37,189 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:37,190 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:37,191 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:37,193 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:37,194 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:37,195 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:37,196 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:37,197 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:37,198 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:37,200 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:37,201 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:37,202 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:37,203 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:37,204 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:37,205 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:37,206 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:37,207 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:37,209 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:37,210 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:37,211 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:37,212 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:37,214 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:37,215 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:37,216 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:37,217 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:37,218 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:37,219 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:37,220 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:37,221 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:37,222 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:37,223 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:37,224 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:37,225 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:37,226 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:37,227 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:37,228 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:37,229 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:37,231 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:37,232 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:37,233 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:37,234 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:37,235 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:37,236 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:37,237 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:37,238 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:37,239 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:37,240 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:37,241 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:37,242 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:37,244 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:37,245 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:37,246 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:37,247 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:37,248 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:37,249 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:37,250 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:37,251 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:37,252 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:37,253 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:37,254 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:37,255 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:37,257 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:37,258 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:37,259 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:37,260 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:37,261 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:37,262 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:37,263 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:37,264 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:37,265 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:37,266 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:37,267 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:37,331 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:37,332 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:37,334 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:37,335 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:37,336 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:37,337 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:37,338 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:37,339 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:37,340 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:37,341 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:37,343 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:37,344 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:37,345 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:37,346 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:37,347 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:37,348 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:37,349 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:37,351 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:37,352 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:37,353 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:37,354 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:37,355 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:37,356 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:37,357 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:37,358 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:37,360 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:37,361 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:37,362 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:37,363 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:37,364 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:37,366 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:37,367 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:37,368 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:37,369 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:37,370 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:37,371 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:37,379 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:37,380 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:37,380 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:37,380 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:37,380 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:37,381 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:37,381 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:37,381 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:37,382 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:37,382 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:37,382 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:37,383 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:37,383 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:37,383 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:37,383 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:37,384 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:37,384 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:37,384 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:37,385 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:37,385 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:37,385 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:37,386 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:37,386 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:37,386 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:37,387 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:37,387 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:37,387 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:37,388 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:37,388 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:37,388 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:37,389 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:37,389 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:37,389 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:37,390 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:37,390 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:37,390 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:37,390 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:37,391 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:37,391 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:37,391 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:37,392 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:37,392 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:37,393 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:37,393 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:37,393 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:37,394 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:37,394 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:37,394 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:37,394 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:37,395 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:37,395 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:37,395 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:37,396 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:37,396 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:37,396 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:37,397 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:37,397 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:37,397 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:37,397 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:37,398 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:37,398 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:37,398 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:37,399 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:37,399 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:37,399 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:37,400 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:37,400 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:37,400 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:37,400 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:37,401 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:37,401 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:37,401 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:37,402 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:37,402 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:37,402 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:37,403 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:37,403 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:37,403 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:37,404 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:37,404 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:37,404 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:37,405 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:37,405 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:37,405 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:37,405 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:37,406 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:37,406 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:37,406 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:37,407 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:37,407 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:37,407 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:37,408 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:37,408 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:37,408 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:37,408 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:37,409 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:37,409 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:37,410 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:37,410 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:37,410 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:37,411 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:37,411 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:37,411 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:37,412 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:37,412 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:37,412 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:37,412 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:37,413 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:37,413 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:37,413 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:37,414 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:37,414 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:37,414 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:37,414 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:37,415 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:37,415 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:37,415 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:37,416 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:37,416 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:37,416 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:37,417 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:37,417 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:37,417 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:37,417 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:37,418 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:37,418 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:37,418 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:37,419 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:37,419 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:37,419 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:37,420 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:37,420 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:37,420 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:37,420 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:37,421 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:37,421 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:37,421 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:37,422 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:37,422 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:37,422 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:37,423 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:37,423 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:37,423 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:37,423 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:37,424 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:37,424 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:37,424 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:37,425 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:37,425 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:37,425 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:37,426 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:37,426 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:37,427 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:37,427 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:37,427 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:37,427 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:37,428 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:37,428 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:37,428 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:37,429 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:37,429 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:37,429 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:37,430 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:37,430 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:37,430 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:37,430 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:37,431 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:37,431 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:37,431 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:37,432 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:37,432 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:37,432 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:37,433 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:37,433 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:37,433 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:37,433 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:37,434 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:37,434 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:37,434 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:37,435 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:37,435 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:37,435 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:37,436 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:37,436 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:37,436 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:37,436 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:37,437 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:37,437 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:37,437 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:37,438 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:37,438 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:37,438 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:37,439 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:37,439 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:37,439 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:37,439 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:37,440 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:37,440 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:37,440 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:37,441 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:37,441 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:37,441 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:37,442 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:37,442 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:37,443 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:37,443 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:37,443 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:37,443 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:37,444 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:37,444 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:37,444 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:37,445 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:37,445 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:37,445 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:37,446 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:37,446 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:37,446 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:37,446 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:37,447 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:37,447 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:37,447 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:37,448 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:37,448 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:37,448 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:37,449 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:37,449 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:37,449 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:37,449 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:37,450 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:37,450 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:37,450 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:37,451 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:37,451 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:37,451 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:37,451 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:37,452 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:37,452 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:37,452 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:37,453 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:37,453 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:37,453 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:37,454 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:37,454 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:37,454 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:37,454 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:37,455 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:37,455 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:37,455 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:37,456 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:37,456 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:37,456 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:37,457 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:37,457 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:37,457 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:37,457 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:37,458 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:37,458 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:37,458 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:37,459 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:37,459 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:37,460 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:37,460 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:37,465 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:37,565 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:37,580 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:37,580 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:37,581 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:37,581 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:37,581 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:37,581 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:37,582 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:37,582 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:37,583 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:37,583 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:37,583 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:37,584 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:37,584 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:37,584 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:37,585 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:37,585 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:37,586 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:37,586 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:37,586 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:37,587 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:37,587 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:37,587 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:37,588 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:37,588 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:37,589 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:37,589 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:37,589 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:37,590 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:37,590 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:37,590 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:37,591 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:37,591 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:37,591 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:37,592 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:37,593 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:37,593 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:40,488 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:40,490 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:40,491 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:40,492 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:40,493 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:40,494 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:40,496 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:40,497 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:40,498 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:40,499 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:40,500 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:40,501 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:40,502 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:40,503 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:40,504 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:40,505 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:40,506 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:40,507 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:40,509 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:40,510 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:40,511 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:40,512 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:40,513 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:40,514 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:40,515 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:40,516 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:40,518 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:40,519 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:40,520 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:40,521 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:40,522 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:40,523 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:40,524 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:40,525 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:40,527 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:40,528 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:40,529 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:40,530 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:40,531 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:40,532 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:40,533 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:40,535 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:40,536 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:40,537 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:40,538 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:40,539 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:40,540 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:40,541 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:40,542 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:40,543 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:40,544 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:40,545 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:40,547 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:40,548 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:40,549 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:40,550 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:40,551 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:40,552 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:40,553 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:40,554 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:40,555 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:40,557 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:40,558 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:40,559 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:40,560 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:40,561 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:40,562 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:40,563 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:40,564 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:40,565 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:40,566 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:40,567 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:40,569 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:40,570 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:40,571 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:40,572 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:40,573 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:40,574 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:40,575 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:40,576 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:40,577 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:40,578 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:40,579 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:40,580 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:40,582 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:40,583 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:40,584 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:40,585 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:40,586 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:40,587 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:40,588 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:40,590 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:40,591 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:40,592 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:40,593 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:40,594 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:40,595 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:40,596 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:40,597 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:40,599 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:40,600 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:40,601 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:40,602 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:40,603 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:40,604 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:40,605 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:40,606 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:40,607 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:40,608 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:40,609 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:40,611 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:40,612 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:40,613 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:40,614 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:40,615 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:40,616 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:40,617 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:40,618 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:40,619 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:40,620 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:40,621 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:40,622 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:40,623 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:40,625 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:40,626 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:40,627 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:40,628 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:40,629 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:40,630 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:40,631 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:40,632 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:40,633 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:40,634 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:40,636 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:40,637 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:40,638 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:40,639 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:40,640 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:40,641 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:40,642 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:40,643 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:40,644 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:40,645 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:40,647 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:40,648 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:40,649 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:40,650 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:40,651 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:40,652 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:40,653 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:40,654 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:40,655 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:40,656 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:40,657 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:40,659 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:40,660 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:40,661 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:40,662 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:40,663 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:40,664 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:40,665 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:40,666 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:40,667 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:40,669 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:40,670 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:40,671 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:40,672 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:40,673 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:40,674 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:40,675 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:40,677 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:40,678 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:40,679 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:40,680 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:40,681 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:40,682 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:40,683 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:40,684 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:40,686 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:40,687 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:40,688 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:40,689 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:40,690 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:40,691 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:40,692 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:40,693 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:40,695 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:40,696 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:40,697 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:40,698 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:40,699 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:40,700 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:40,701 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:40,702 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:40,704 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:40,705 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:40,706 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:40,707 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:40,708 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:40,709 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:40,710 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:40,711 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:40,713 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:40,714 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:40,715 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:40,716 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:40,717 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:40,718 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:40,719 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:40,721 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:40,722 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:40,723 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:40,724 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:40,725 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:40,727 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:40,728 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:40,729 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:40,730 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:40,731 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:40,732 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:40,734 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:40,735 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:40,736 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:40,737 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:40,738 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:40,739 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:40,741 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:40,742 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:40,743 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:40,744 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:40,745 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:40,746 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:40,747 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:40,748 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:40,749 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:40,751 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:40,752 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:40,753 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:40,754 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:40,755 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:40,756 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:40,757 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:40,758 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:40,759 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:40,761 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:40,762 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:40,763 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:40,764 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:40,765 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:40,766 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:40,767 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:40,768 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:40,769 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:40,770 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:40,772 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:40,773 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:40,774 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:40,775 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:40,776 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:40,777 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:40,778 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:40,779 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:40,781 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:40,782 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:40,783 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:40,784 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:40,785 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:40,786 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:40,787 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:40,788 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:40,789 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:40,790 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:40,791 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:40,793 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:40,794 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:40,795 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:40,796 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:40,797 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:40,799 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:40,800 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:40,801 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:40,802 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:40,803 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:40,804 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:40,805 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:40,806 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:40,808 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:40,809 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:40,810 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:40,811 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:40,812 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:40,813 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:40,814 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:40,816 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:40,817 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:40,818 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:40,819 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:40,820 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:40,821 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:40,822 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:40,831 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:40,832 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:40,833 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:40,834 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:40,835 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:40,837 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:40,838 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:40,839 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:40,840 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:40,841 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:40,842 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:40,844 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:40,845 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:40,846 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:40,847 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:40,848 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:40,849 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:40,850 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:40,851 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:40,852 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:40,853 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:40,854 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:40,855 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:40,856 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:40,858 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:40,859 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:40,860 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:40,861 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:40,862 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:40,864 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:40,865 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:40,866 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:40,867 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:40,868 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:40,869 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:40,871 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:40,872 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:40,873 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:40,874 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:40,875 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:40,876 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:40,877 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:40,878 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:40,879 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:40,880 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:40,881 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:40,882 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:40,883 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:40,884 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:40,886 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:40,887 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:40,888 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:40,889 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:40,890 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:40,891 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:40,892 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:40,893 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:40,894 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:40,895 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:40,896 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:40,897 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:40,898 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:40,899 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:40,900 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:40,901 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:40,903 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:40,904 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:40,905 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:40,906 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:40,907 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:40,908 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:40,909 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:40,910 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:40,911 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:40,912 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:40,913 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:40,914 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:40,915 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:40,916 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:40,917 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:40,919 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:40,920 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:40,921 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:40,922 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:40,923 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:40,924 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:40,925 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:40,926 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:40,927 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:40,928 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:40,929 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:40,930 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:40,931 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:40,932 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:40,934 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:40,935 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:40,976 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:40,985 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:40,986 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:40,987 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:40,988 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:40,990 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:40,991 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:40,992 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:40,994 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:40,995 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:40,996 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:40,997 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:40,998 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:40,999 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:41,001 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:41,002 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:41,003 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:41,004 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:41,005 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:41,006 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:41,007 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:41,008 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:41,009 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:41,010 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:41,011 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:41,012 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:41,013 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:41,014 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:41,015 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:41,016 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:41,017 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:41,019 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:41,020 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:41,021 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:41,022 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:41,023 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:41,024 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:41,025 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:41,026 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:41,028 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:41,029 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:41,030 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:41,031 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:41,032 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:41,033 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:41,034 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:41,035 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:41,036 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:41,037 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:41,038 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:41,039 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:41,041 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:41,042 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:41,043 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:41,044 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:41,045 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:41,046 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:41,047 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:41,048 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:41,049 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:41,050 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:41,051 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:41,052 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:41,053 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:41,055 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:41,056 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:41,057 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:41,058 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:41,059 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:41,060 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:41,061 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:41,062 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:41,064 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:41,065 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:41,066 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:41,067 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:41,068 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:41,069 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:41,070 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:41,071 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:41,072 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:41,073 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:41,074 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:41,075 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:41,077 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:41,078 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:41,079 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:41,080 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:41,081 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:41,082 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:41,083 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:41,084 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:41,085 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:41,086 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:41,087 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:41,089 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:41,090 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:41,091 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:41,092 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:41,093 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:41,094 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:41,095 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:41,096 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:41,097 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:41,098 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:41,100 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:41,101 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:41,102 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:41,103 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:41,104 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:41,105 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:41,106 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:41,107 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:41,108 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:41,109 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:41,111 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:41,112 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:41,113 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:41,114 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:41,115 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:41,116 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:41,117 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:41,118 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:41,119 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:41,120 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:41,121 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:41,122 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:41,124 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:41,125 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:41,126 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:41,127 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:41,128 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:41,129 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:41,130 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:41,131 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:41,132 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:41,134 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:41,135 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:41,136 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:41,137 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:41,138 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:41,139 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:41,140 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:41,141 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:41,142 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:41,144 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:41,145 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:41,146 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:41,147 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:41,148 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:41,149 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:41,150 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:41,151 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:41,152 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:41,153 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:41,154 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:41,155 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:41,156 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:41,158 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:41,159 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:41,160 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:41,161 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:41,162 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:41,163 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:41,164 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:41,166 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:41,167 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:41,168 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:41,169 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:41,170 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:41,171 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:41,172 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:41,173 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:41,174 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:41,175 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:41,176 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:41,178 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:41,179 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:41,180 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:41,181 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:41,182 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:41,183 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:41,184 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:41,185 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:41,186 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:41,187 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:41,188 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:41,189 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:41,191 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:41,192 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:41,193 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:41,194 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:41,195 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:41,196 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:41,197 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:41,198 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:41,199 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:41,200 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:41,201 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:41,202 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:41,203 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:41,205 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:41,206 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:41,207 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:41,215 : Line: 38 - Processed 1 elements
+2022-01-27 20:14:41,215 : Line: 38 - Processed 2 elements
+2022-01-27 20:14:41,216 : Line: 38 - Processed 3 elements
+2022-01-27 20:14:41,216 : Line: 38 - Processed 4 elements
+2022-01-27 20:14:41,216 : Line: 38 - Processed 5 elements
+2022-01-27 20:14:41,217 : Line: 38 - Processed 6 elements
+2022-01-27 20:14:41,217 : Line: 38 - Processed 7 elements
+2022-01-27 20:14:41,217 : Line: 38 - Processed 8 elements
+2022-01-27 20:14:41,217 : Line: 38 - Processed 9 elements
+2022-01-27 20:14:41,218 : Line: 38 - Processed 10 elements
+2022-01-27 20:14:41,218 : Line: 38 - Processed 11 elements
+2022-01-27 20:14:41,218 : Line: 38 - Processed 12 elements
+2022-01-27 20:14:41,219 : Line: 38 - Processed 13 elements
+2022-01-27 20:14:41,219 : Line: 38 - Processed 14 elements
+2022-01-27 20:14:41,219 : Line: 38 - Processed 15 elements
+2022-01-27 20:14:41,220 : Line: 38 - Processed 16 elements
+2022-01-27 20:14:41,220 : Line: 38 - Processed 17 elements
+2022-01-27 20:14:41,220 : Line: 38 - Processed 18 elements
+2022-01-27 20:14:41,220 : Line: 38 - Processed 19 elements
+2022-01-27 20:14:41,221 : Line: 38 - Processed 20 elements
+2022-01-27 20:14:41,221 : Line: 38 - Processed 21 elements
+2022-01-27 20:14:41,221 : Line: 38 - Processed 22 elements
+2022-01-27 20:14:41,222 : Line: 38 - Processed 23 elements
+2022-01-27 20:14:41,222 : Line: 38 - Processed 24 elements
+2022-01-27 20:14:41,222 : Line: 38 - Processed 25 elements
+2022-01-27 20:14:41,223 : Line: 38 - Processed 26 elements
+2022-01-27 20:14:41,223 : Line: 38 - Processed 27 elements
+2022-01-27 20:14:41,223 : Line: 38 - Processed 28 elements
+2022-01-27 20:14:41,223 : Line: 38 - Processed 29 elements
+2022-01-27 20:14:41,224 : Line: 38 - Processed 30 elements
+2022-01-27 20:14:41,224 : Line: 38 - Processed 31 elements
+2022-01-27 20:14:41,224 : Line: 38 - Processed 32 elements
+2022-01-27 20:14:41,225 : Line: 38 - Processed 33 elements
+2022-01-27 20:14:41,225 : Line: 38 - Processed 34 elements
+2022-01-27 20:14:41,226 : Line: 38 - Processed 35 elements
+2022-01-27 20:14:41,226 : Line: 38 - Processed 36 elements
+2022-01-27 20:14:41,226 : Line: 38 - Processed 37 elements
+2022-01-27 20:14:41,227 : Line: 38 - Processed 38 elements
+2022-01-27 20:14:41,227 : Line: 38 - Processed 39 elements
+2022-01-27 20:14:41,227 : Line: 38 - Processed 40 elements
+2022-01-27 20:14:41,227 : Line: 38 - Processed 41 elements
+2022-01-27 20:14:41,228 : Line: 38 - Processed 42 elements
+2022-01-27 20:14:41,228 : Line: 38 - Processed 43 elements
+2022-01-27 20:14:41,228 : Line: 38 - Processed 44 elements
+2022-01-27 20:14:41,229 : Line: 38 - Processed 45 elements
+2022-01-27 20:14:41,229 : Line: 38 - Processed 46 elements
+2022-01-27 20:14:41,229 : Line: 38 - Processed 47 elements
+2022-01-27 20:14:41,230 : Line: 38 - Processed 48 elements
+2022-01-27 20:14:41,230 : Line: 38 - Processed 49 elements
+2022-01-27 20:14:41,230 : Line: 38 - Processed 50 elements
+2022-01-27 20:14:41,230 : Line: 38 - Processed 51 elements
+2022-01-27 20:14:41,231 : Line: 38 - Processed 52 elements
+2022-01-27 20:14:41,231 : Line: 38 - Processed 53 elements
+2022-01-27 20:14:41,231 : Line: 38 - Processed 54 elements
+2022-01-27 20:14:41,232 : Line: 38 - Processed 55 elements
+2022-01-27 20:14:41,232 : Line: 38 - Processed 56 elements
+2022-01-27 20:14:41,232 : Line: 38 - Processed 57 elements
+2022-01-27 20:14:41,233 : Line: 38 - Processed 58 elements
+2022-01-27 20:14:41,233 : Line: 38 - Processed 59 elements
+2022-01-27 20:14:41,233 : Line: 38 - Processed 60 elements
+2022-01-27 20:14:41,233 : Line: 38 - Processed 61 elements
+2022-01-27 20:14:41,234 : Line: 38 - Processed 62 elements
+2022-01-27 20:14:41,234 : Line: 38 - Processed 63 elements
+2022-01-27 20:14:41,234 : Line: 38 - Processed 64 elements
+2022-01-27 20:14:41,235 : Line: 38 - Processed 65 elements
+2022-01-27 20:14:41,235 : Line: 38 - Processed 66 elements
+2022-01-27 20:14:41,235 : Line: 38 - Processed 67 elements
+2022-01-27 20:14:41,236 : Line: 38 - Processed 68 elements
+2022-01-27 20:14:41,236 : Line: 38 - Processed 69 elements
+2022-01-27 20:14:41,236 : Line: 38 - Processed 70 elements
+2022-01-27 20:14:41,237 : Line: 38 - Processed 71 elements
+2022-01-27 20:14:41,237 : Line: 38 - Processed 72 elements
+2022-01-27 20:14:41,237 : Line: 38 - Processed 73 elements
+2022-01-27 20:14:41,237 : Line: 38 - Processed 74 elements
+2022-01-27 20:14:41,238 : Line: 38 - Processed 75 elements
+2022-01-27 20:14:41,238 : Line: 38 - Processed 76 elements
+2022-01-27 20:14:41,238 : Line: 38 - Processed 77 elements
+2022-01-27 20:14:41,239 : Line: 38 - Processed 78 elements
+2022-01-27 20:14:41,239 : Line: 38 - Processed 79 elements
+2022-01-27 20:14:41,239 : Line: 38 - Processed 80 elements
+2022-01-27 20:14:41,240 : Line: 38 - Processed 81 elements
+2022-01-27 20:14:41,240 : Line: 38 - Processed 82 elements
+2022-01-27 20:14:41,240 : Line: 38 - Processed 83 elements
+2022-01-27 20:14:41,240 : Line: 38 - Processed 84 elements
+2022-01-27 20:14:41,241 : Line: 38 - Processed 85 elements
+2022-01-27 20:14:41,241 : Line: 38 - Processed 86 elements
+2022-01-27 20:14:41,241 : Line: 38 - Processed 87 elements
+2022-01-27 20:14:41,242 : Line: 38 - Processed 88 elements
+2022-01-27 20:14:41,242 : Line: 38 - Processed 89 elements
+2022-01-27 20:14:41,243 : Line: 38 - Processed 90 elements
+2022-01-27 20:14:41,243 : Line: 38 - Processed 91 elements
+2022-01-27 20:14:41,243 : Line: 38 - Processed 92 elements
+2022-01-27 20:14:41,244 : Line: 38 - Processed 93 elements
+2022-01-27 20:14:41,244 : Line: 38 - Processed 94 elements
+2022-01-27 20:14:41,244 : Line: 38 - Processed 95 elements
+2022-01-27 20:14:41,244 : Line: 38 - Processed 96 elements
+2022-01-27 20:14:41,245 : Line: 38 - Processed 97 elements
+2022-01-27 20:14:41,245 : Line: 38 - Processed 98 elements
+2022-01-27 20:14:41,245 : Line: 38 - Processed 99 elements
+2022-01-27 20:14:41,246 : Line: 38 - Processed 100 elements
+2022-01-27 20:14:41,246 : Line: 38 - Processed 101 elements
+2022-01-27 20:14:41,246 : Line: 38 - Processed 102 elements
+2022-01-27 20:14:41,247 : Line: 38 - Processed 103 elements
+2022-01-27 20:14:41,247 : Line: 38 - Processed 104 elements
+2022-01-27 20:14:41,247 : Line: 38 - Processed 105 elements
+2022-01-27 20:14:41,248 : Line: 38 - Processed 106 elements
+2022-01-27 20:14:41,248 : Line: 38 - Processed 107 elements
+2022-01-27 20:14:41,248 : Line: 38 - Processed 108 elements
+2022-01-27 20:14:41,249 : Line: 38 - Processed 109 elements
+2022-01-27 20:14:41,249 : Line: 38 - Processed 110 elements
+2022-01-27 20:14:41,249 : Line: 38 - Processed 111 elements
+2022-01-27 20:14:41,249 : Line: 38 - Processed 112 elements
+2022-01-27 20:14:41,250 : Line: 38 - Processed 113 elements
+2022-01-27 20:14:41,250 : Line: 38 - Processed 114 elements
+2022-01-27 20:14:41,250 : Line: 38 - Processed 115 elements
+2022-01-27 20:14:41,251 : Line: 38 - Processed 116 elements
+2022-01-27 20:14:41,251 : Line: 38 - Processed 117 elements
+2022-01-27 20:14:41,251 : Line: 38 - Processed 118 elements
+2022-01-27 20:14:41,252 : Line: 38 - Processed 119 elements
+2022-01-27 20:14:41,252 : Line: 38 - Processed 120 elements
+2022-01-27 20:14:41,252 : Line: 38 - Processed 121 elements
+2022-01-27 20:14:41,252 : Line: 38 - Processed 122 elements
+2022-01-27 20:14:41,253 : Line: 38 - Processed 123 elements
+2022-01-27 20:14:41,253 : Line: 38 - Processed 124 elements
+2022-01-27 20:14:41,253 : Line: 38 - Processed 125 elements
+2022-01-27 20:14:41,254 : Line: 38 - Processed 126 elements
+2022-01-27 20:14:41,254 : Line: 38 - Processed 127 elements
+2022-01-27 20:14:41,254 : Line: 38 - Processed 128 elements
+2022-01-27 20:14:41,255 : Line: 38 - Processed 129 elements
+2022-01-27 20:14:41,255 : Line: 38 - Processed 130 elements
+2022-01-27 20:14:41,255 : Line: 38 - Processed 131 elements
+2022-01-27 20:14:41,255 : Line: 38 - Processed 132 elements
+2022-01-27 20:14:41,256 : Line: 38 - Processed 133 elements
+2022-01-27 20:14:41,256 : Line: 38 - Processed 134 elements
+2022-01-27 20:14:41,256 : Line: 38 - Processed 135 elements
+2022-01-27 20:14:41,257 : Line: 38 - Processed 136 elements
+2022-01-27 20:14:41,257 : Line: 38 - Processed 137 elements
+2022-01-27 20:14:41,257 : Line: 38 - Processed 138 elements
+2022-01-27 20:14:41,258 : Line: 38 - Processed 139 elements
+2022-01-27 20:14:41,258 : Line: 38 - Processed 140 elements
+2022-01-27 20:14:41,258 : Line: 38 - Processed 141 elements
+2022-01-27 20:14:41,259 : Line: 38 - Processed 142 elements
+2022-01-27 20:14:41,259 : Line: 38 - Processed 143 elements
+2022-01-27 20:14:41,259 : Line: 38 - Processed 144 elements
+2022-01-27 20:14:41,260 : Line: 38 - Processed 145 elements
+2022-01-27 20:14:41,260 : Line: 38 - Processed 146 elements
+2022-01-27 20:14:41,260 : Line: 38 - Processed 147 elements
+2022-01-27 20:14:41,261 : Line: 38 - Processed 148 elements
+2022-01-27 20:14:41,261 : Line: 38 - Processed 149 elements
+2022-01-27 20:14:41,261 : Line: 38 - Processed 150 elements
+2022-01-27 20:14:41,262 : Line: 38 - Processed 151 elements
+2022-01-27 20:14:41,262 : Line: 38 - Processed 152 elements
+2022-01-27 20:14:41,262 : Line: 38 - Processed 153 elements
+2022-01-27 20:14:41,263 : Line: 38 - Processed 154 elements
+2022-01-27 20:14:41,263 : Line: 38 - Processed 155 elements
+2022-01-27 20:14:41,263 : Line: 38 - Processed 156 elements
+2022-01-27 20:14:41,263 : Line: 38 - Processed 157 elements
+2022-01-27 20:14:41,264 : Line: 38 - Processed 158 elements
+2022-01-27 20:14:41,264 : Line: 38 - Processed 159 elements
+2022-01-27 20:14:41,264 : Line: 38 - Processed 160 elements
+2022-01-27 20:14:41,265 : Line: 38 - Processed 161 elements
+2022-01-27 20:14:41,265 : Line: 38 - Processed 162 elements
+2022-01-27 20:14:41,265 : Line: 38 - Processed 163 elements
+2022-01-27 20:14:41,266 : Line: 38 - Processed 164 elements
+2022-01-27 20:14:41,266 : Line: 38 - Processed 165 elements
+2022-01-27 20:14:41,266 : Line: 38 - Processed 166 elements
+2022-01-27 20:14:41,266 : Line: 38 - Processed 167 elements
+2022-01-27 20:14:41,267 : Line: 38 - Processed 168 elements
+2022-01-27 20:14:41,267 : Line: 38 - Processed 169 elements
+2022-01-27 20:14:41,267 : Line: 38 - Processed 170 elements
+2022-01-27 20:14:41,268 : Line: 38 - Processed 171 elements
+2022-01-27 20:14:41,268 : Line: 38 - Processed 172 elements
+2022-01-27 20:14:41,268 : Line: 38 - Processed 173 elements
+2022-01-27 20:14:41,269 : Line: 38 - Processed 174 elements
+2022-01-27 20:14:41,269 : Line: 38 - Processed 175 elements
+2022-01-27 20:14:41,269 : Line: 38 - Processed 176 elements
+2022-01-27 20:14:41,269 : Line: 38 - Processed 177 elements
+2022-01-27 20:14:41,270 : Line: 38 - Processed 178 elements
+2022-01-27 20:14:41,270 : Line: 38 - Processed 179 elements
+2022-01-27 20:14:41,270 : Line: 38 - Processed 180 elements
+2022-01-27 20:14:41,271 : Line: 38 - Processed 181 elements
+2022-01-27 20:14:41,271 : Line: 38 - Processed 182 elements
+2022-01-27 20:14:41,271 : Line: 38 - Processed 183 elements
+2022-01-27 20:14:41,272 : Line: 38 - Processed 184 elements
+2022-01-27 20:14:41,272 : Line: 38 - Processed 185 elements
+2022-01-27 20:14:41,272 : Line: 38 - Processed 186 elements
+2022-01-27 20:14:41,273 : Line: 38 - Processed 187 elements
+2022-01-27 20:14:41,273 : Line: 38 - Processed 188 elements
+2022-01-27 20:14:41,273 : Line: 38 - Processed 189 elements
+2022-01-27 20:14:41,273 : Line: 38 - Processed 190 elements
+2022-01-27 20:14:41,274 : Line: 38 - Processed 191 elements
+2022-01-27 20:14:41,274 : Line: 38 - Processed 192 elements
+2022-01-27 20:14:41,274 : Line: 38 - Processed 193 elements
+2022-01-27 20:14:41,275 : Line: 38 - Processed 194 elements
+2022-01-27 20:14:41,275 : Line: 38 - Processed 195 elements
+2022-01-27 20:14:41,276 : Line: 38 - Processed 196 elements
+2022-01-27 20:14:41,276 : Line: 38 - Processed 197 elements
+2022-01-27 20:14:41,276 : Line: 38 - Processed 198 elements
+2022-01-27 20:14:41,277 : Line: 38 - Processed 199 elements
+2022-01-27 20:14:41,277 : Line: 38 - Processed 200 elements
+2022-01-27 20:14:41,277 : Line: 38 - Processed 201 elements
+2022-01-27 20:14:41,278 : Line: 38 - Processed 202 elements
+2022-01-27 20:14:41,278 : Line: 38 - Processed 203 elements
+2022-01-27 20:14:41,278 : Line: 38 - Processed 204 elements
+2022-01-27 20:14:41,279 : Line: 38 - Processed 205 elements
+2022-01-27 20:14:41,279 : Line: 38 - Processed 206 elements
+2022-01-27 20:14:41,279 : Line: 38 - Processed 207 elements
+2022-01-27 20:14:41,279 : Line: 38 - Processed 208 elements
+2022-01-27 20:14:41,280 : Line: 38 - Processed 209 elements
+2022-01-27 20:14:41,280 : Line: 38 - Processed 210 elements
+2022-01-27 20:14:41,280 : Line: 38 - Processed 211 elements
+2022-01-27 20:14:41,281 : Line: 38 - Processed 212 elements
+2022-01-27 20:14:41,281 : Line: 38 - Processed 213 elements
+2022-01-27 20:14:41,281 : Line: 38 - Processed 214 elements
+2022-01-27 20:14:41,282 : Line: 38 - Processed 215 elements
+2022-01-27 20:14:41,282 : Line: 38 - Processed 216 elements
+2022-01-27 20:14:41,282 : Line: 38 - Processed 217 elements
+2022-01-27 20:14:41,283 : Line: 38 - Processed 218 elements
+2022-01-27 20:14:41,283 : Line: 38 - Processed 219 elements
+2022-01-27 20:14:41,283 : Line: 38 - Processed 220 elements
+2022-01-27 20:14:41,283 : Line: 38 - Processed 221 elements
+2022-01-27 20:14:41,284 : Line: 38 - Processed 222 elements
+2022-01-27 20:14:41,284 : Line: 38 - Processed 223 elements
+2022-01-27 20:14:41,284 : Line: 38 - Processed 224 elements
+2022-01-27 20:14:41,285 : Line: 38 - Processed 225 elements
+2022-01-27 20:14:41,285 : Line: 38 - Processed 226 elements
+2022-01-27 20:14:41,285 : Line: 38 - Processed 227 elements
+2022-01-27 20:14:41,286 : Line: 38 - Processed 228 elements
+2022-01-27 20:14:41,286 : Line: 38 - Processed 229 elements
+2022-01-27 20:14:41,286 : Line: 38 - Processed 230 elements
+2022-01-27 20:14:41,287 : Line: 38 - Processed 231 elements
+2022-01-27 20:14:41,287 : Line: 38 - Processed 232 elements
+2022-01-27 20:14:41,287 : Line: 38 - Processed 233 elements
+2022-01-27 20:14:41,288 : Line: 38 - Processed 234 elements
+2022-01-27 20:14:41,288 : Line: 38 - Processed 235 elements
+2022-01-27 20:14:41,288 : Line: 38 - Processed 236 elements
+2022-01-27 20:14:41,289 : Line: 38 - Processed 237 elements
+2022-01-27 20:14:41,289 : Line: 38 - Processed 238 elements
+2022-01-27 20:14:41,289 : Line: 38 - Processed 239 elements
+2022-01-27 20:14:41,289 : Line: 38 - Processed 240 elements
+2022-01-27 20:14:41,290 : Line: 38 - Processed 241 elements
+2022-01-27 20:14:41,290 : Line: 38 - Processed 242 elements
+2022-01-27 20:14:41,290 : Line: 38 - Processed 243 elements
+2022-01-27 20:14:41,291 : Line: 38 - Processed 244 elements
+2022-01-27 20:14:41,291 : Line: 38 - Processed 245 elements
+2022-01-27 20:14:41,291 : Line: 38 - Processed 246 elements
+2022-01-27 20:14:41,292 : Line: 38 - Processed 247 elements
+2022-01-27 20:14:41,292 : Line: 38 - Processed 248 elements
+2022-01-27 20:14:41,292 : Line: 38 - Processed 249 elements
+2022-01-27 20:14:41,293 : Line: 38 - Processed 250 elements
+2022-01-27 20:14:41,293 : Line: 38 - Processed 251 elements
+2022-01-27 20:14:41,293 : Line: 38 - Processed 252 elements
+2022-01-27 20:14:41,294 : Line: 38 - Processed 253 elements
+2022-01-27 20:14:41,294 : Line: 38 - Processed 254 elements
+2022-01-27 20:14:41,294 : Line: 38 - Processed 255 elements
+2022-01-27 20:14:41,294 : Line: 38 - Processed 256 elements
+2022-01-27 20:14:41,295 : Line: 38 - Processed 257 elements
+2022-01-27 20:14:41,295 : Line: 38 - Processed 258 elements
+2022-01-27 20:14:41,295 : Line: 38 - Processed 259 elements
+2022-01-27 20:14:41,296 : Line: 38 - Processed 260 elements
+2022-01-27 20:14:41,296 : Line: 38 - Processed 261 elements
+2022-01-27 20:14:41,296 : Line: 38 - Processed 262 elements
+2022-01-27 20:14:41,297 : Line: 38 - Processed 263 elements
+2022-01-27 20:14:41,297 : Line: 38 - Processed 264 elements
+2022-01-27 20:14:41,297 : Line: 38 - Processed 265 elements
+2022-01-27 20:14:41,297 : Line: 38 - Processed 266 elements
+2022-01-27 20:14:41,298 : Line: 38 - Processed 267 elements
+2022-01-27 20:14:41,298 : Line: 38 - Processed 268 elements
+2022-01-27 20:14:41,298 : Line: 38 - Processed 269 elements
+2022-01-27 20:14:41,299 : Line: 38 - Processed 270 elements
+2022-01-27 20:14:41,299 : Line: 38 - Processed 271 elements
+2022-01-27 20:14:41,299 : Line: 38 - Processed 272 elements
+2022-01-27 20:14:41,299 : Line: 38 - Processed 273 elements
+2022-01-27 20:14:41,300 : Line: 38 - Processed 274 elements
+2022-01-27 20:14:41,300 : Line: 38 - Processed 275 elements
+2022-01-27 20:14:41,300 : Line: 38 - Processed 276 elements
+2022-01-27 20:14:41,301 : Line: 38 - Processed 277 elements
+2022-01-27 20:14:41,301 : Line: 38 - Processed 278 elements
+2022-01-27 20:14:41,301 : Line: 38 - Processed 279 elements
+2022-01-27 20:14:41,302 : Line: 38 - Processed 280 elements
+2022-01-27 20:14:41,302 : Line: 38 - Processed 281 elements
+2022-01-27 20:14:41,302 : Line: 38 - Processed 282 elements
+2022-01-27 20:14:41,302 : Line: 38 - Processed 283 elements
+2022-01-27 20:14:41,303 : Line: 38 - Processed 284 elements
+2022-01-27 20:14:41,303 : Line: 38 - Processed 285 elements
+2022-01-27 20:14:41,303 : Line: 38 - Processed 286 elements
+2022-01-27 20:14:41,304 : Line: 38 - Processed 287 elements
+2022-01-27 20:14:41,304 : Line: 38 - Processed 288 elements
+2022-01-27 20:14:41,304 : Line: 38 - Processed 289 elements
+2022-01-27 20:14:41,304 : Line: 38 - Processed 290 elements
+2022-01-27 20:14:41,305 : Line: 38 - Processed 291 elements
+2022-01-27 20:14:41,305 : Line: 38 - Processed 292 elements
+2022-01-27 20:14:41,305 : Line: 38 - Processed 293 elements
+2022-01-27 20:14:41,306 : Line: 38 - Processed 294 elements
+2022-01-27 20:14:41,306 : Line: 38 - Processed 295 elements
+2022-01-27 20:14:41,306 : Line: 38 - Processed 296 elements
+2022-01-27 20:14:41,307 : Line: 38 - Processed 297 elements
+2022-01-27 20:14:41,307 : Line: 38 - Processed 298 elements
+2022-01-27 20:14:41,307 : Line: 38 - Processed 299 elements
+2022-01-27 20:14:41,307 : Line: 38 - Processed 300 elements
+2022-01-27 20:14:42,844 : Line: 129 -
+Start of epoch 0
+2022-01-27 20:14:43,280 : Line: 451 - Tensor("DiceLoss/weighted_loss/value:0", shape=(), dtype=float32)
+2022-01-27 20:14:43,798 : Line: 451 - Tensor("DiceLoss/weighted_loss/value:0", shape=(), dtype=float32)
+2022-01-27 20:14:43.836244: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-01-27 20:14:44.767401: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-01-27 20:14:45,051 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:45,219 : Line: 129 -
+Start of epoch 1
+2022-01-27 20:14:45,286 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:45,466 : Line: 129 -
+Start of epoch 2
+2022-01-27 20:14:45,514 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:45,683 : Line: 129 -
+Start of epoch 3
+2022-01-27 20:14:45,733 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:45,836 : Line: 129 -
+Start of epoch 4
+2022-01-27 20:14:45,875 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,018 : Line: 129 -
+Start of epoch 5
+2022-01-27 20:14:46,075 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,193 : Line: 129 -
+Start of epoch 6
+2022-01-27 20:14:46,234 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,411 : Line: 129 -
+Start of epoch 7
+2022-01-27 20:14:46,466 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,605 : Line: 129 -
+Start of epoch 8
+2022-01-27 20:14:46,653 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,801 : Line: 129 -
+Start of epoch 9
+2022-01-27 20:14:46,853 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:46,988 : Line: 129 -
+Start of epoch 10
+2022-01-27 20:14:47,030 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:47,195 : Line: 129 -
+Start of epoch 11
+2022-01-27 20:14:47,245 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:47,376 : Line: 129 -
+Start of epoch 12
+2022-01-27 20:14:47,419 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:47,562 : Line: 129 -
+Start of epoch 13
+2022-01-27 20:14:47,612 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:47,757 : Line: 129 -
+Start of epoch 14
+2022-01-27 20:14:47,800 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:47,937 : Line: 129 -
+Start of epoch 15
+2022-01-27 20:14:47,989 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:48,121 : Line: 129 -
+Start of epoch 16
+2022-01-27 20:14:48,161 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:48,295 : Line: 129 -
+Start of epoch 17
+2022-01-27 20:14:48,345 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:48,482 : Line: 129 -
+Start of epoch 18
+2022-01-27 20:14:48,523 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:48,707 : Line: 129 -
+Start of epoch 19
+2022-01-27 20:14:48,756 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:48,920 : Line: 129 -
+Start of epoch 20
+2022-01-27 20:14:48,962 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:49,135 : Line: 129 -
+Start of epoch 21
+2022-01-27 20:14:49,185 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:49,361 : Line: 129 -
+Start of epoch 22
+2022-01-27 20:14:49,404 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:49,573 : Line: 129 -
+Start of epoch 23
+2022-01-27 20:14:49,635 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:49,788 : Line: 129 -
+Start of epoch 24
+2022-01-27 20:14:49,829 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:50,835 : Line: 129 -
+Start of epoch 25
+2022-01-27 20:14:50,882 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:51,054 : Line: 129 -
+Start of epoch 26
+2022-01-27 20:14:51,100 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:51,302 : Line: 129 -
+Start of epoch 27
+2022-01-27 20:14:51,354 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:51,473 : Line: 129 -
+Start of epoch 28
+2022-01-27 20:14:51,514 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:51,662 : Line: 129 -
+Start of epoch 29
+2022-01-27 20:14:51,723 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:51,870 : Line: 129 -
+Start of epoch 30
+2022-01-27 20:14:51,915 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:52,052 : Line: 129 -
+Start of epoch 31
+2022-01-27 20:14:52,100 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:52,294 : Line: 129 -
+Start of epoch 32
+2022-01-27 20:14:52,343 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:52,481 : Line: 129 -
+Start of epoch 33
+2022-01-27 20:14:52,527 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:52,664 : Line: 129 -
+Start of epoch 34
+2022-01-27 20:14:52,706 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:52,846 : Line: 129 -
+Start of epoch 35
+2022-01-27 20:14:52,898 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,031 : Line: 129 -
+Start of epoch 36
+2022-01-27 20:14:53,072 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,210 : Line: 129 -
+Start of epoch 37
+2022-01-27 20:14:53,255 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,395 : Line: 129 -
+Start of epoch 38
+2022-01-27 20:14:53,442 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,569 : Line: 129 -
+Start of epoch 39
+2022-01-27 20:14:53,616 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,762 : Line: 129 -
+Start of epoch 40
+2022-01-27 20:14:53,804 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:53,944 : Line: 129 -
+Start of epoch 41
+2022-01-27 20:14:54,005 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:54,134 : Line: 129 -
+Start of epoch 42
+2022-01-27 20:14:54,175 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:54,316 : Line: 129 -
+Start of epoch 43
+2022-01-27 20:14:54,375 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:54,516 : Line: 129 -
+Start of epoch 44
+2022-01-27 20:14:54,561 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:54,693 : Line: 129 -
+Start of epoch 45
+2022-01-27 20:14:54,747 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:54,928 : Line: 129 -
+Start of epoch 46
+2022-01-27 20:14:54,968 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:55,701 : Line: 129 -
+Start of epoch 47
+2022-01-27 20:14:55,758 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:55,902 : Line: 129 -
+Start of epoch 48
+2022-01-27 20:14:55,944 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:56,090 : Line: 129 -
+Start of epoch 49
+2022-01-27 20:14:56,142 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:56,275 : Line: 129 -
+Start of epoch 50
+2022-01-27 20:14:56,320 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:56,458 : Line: 129 -
+Start of epoch 51
+2022-01-27 20:14:56,500 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:56,704 : Line: 129 -
+Start of epoch 52
+2022-01-27 20:14:56,748 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:56,892 : Line: 129 -
+Start of epoch 53
+2022-01-27 20:14:56,939 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:57,090 : Line: 129 -
+Start of epoch 54
+2022-01-27 20:14:57,154 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:57,300 : Line: 129 -
+Start of epoch 55
+2022-01-27 20:14:57,352 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:57,499 : Line: 129 -
+Start of epoch 56
+2022-01-27 20:14:57,539 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:57,673 : Line: 129 -
+Start of epoch 57
+2022-01-27 20:14:57,715 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:57,868 : Line: 129 -
+Start of epoch 58
+2022-01-27 20:14:57,914 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,053 : Line: 129 -
+Start of epoch 59
+2022-01-27 20:14:58,098 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,255 : Line: 129 -
+Start of epoch 60
+2022-01-27 20:14:58,305 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,440 : Line: 129 -
+Start of epoch 61
+2022-01-27 20:14:58,481 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,617 : Line: 129 -
+Start of epoch 62
+2022-01-27 20:14:58,678 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,814 : Line: 129 -
+Start of epoch 63
+2022-01-27 20:14:58,859 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:58,995 : Line: 129 -
+Start of epoch 64
+2022-01-27 20:14:59,036 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:59,185 : Line: 129 -
+Start of epoch 65
+2022-01-27 20:14:59,236 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:59,413 : Line: 129 -
+Start of epoch 66
+2022-01-27 20:14:59,455 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:59,614 : Line: 129 -
+Start of epoch 67
+2022-01-27 20:14:59,674 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:14:59,835 : Line: 129 -
+Start of epoch 68
+2022-01-27 20:14:59,875 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:00,771 : Line: 129 -
+Start of epoch 69
+2022-01-27 20:15:00,825 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:00,979 : Line: 129 -
+Start of epoch 70
+2022-01-27 20:15:01,023 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:01,167 : Line: 129 -
+Start of epoch 71
+2022-01-27 20:15:01,219 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:01,400 : Line: 129 -
+Start of epoch 72
+2022-01-27 20:15:01,443 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:01,619 : Line: 129 -
+Start of epoch 73
+2022-01-27 20:15:01,667 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:01,837 : Line: 129 -
+Start of epoch 74
+2022-01-27 20:15:01,882 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:02,026 : Line: 129 -
+Start of epoch 75
+2022-01-27 20:15:02,074 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:02,231 : Line: 129 -
+Start of epoch 76
+2022-01-27 20:15:02,283 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:02,406 : Line: 129 -
+Start of epoch 77
+2022-01-27 20:15:02,450 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:02,595 : Line: 129 -
+Start of epoch 78
+2022-01-27 20:15:02,639 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:02,798 : Line: 129 -
+Start of epoch 79
+2022-01-27 20:15:02,848 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:03,459 : Line: 129 -
+Start of epoch 80
+2022-01-27 20:15:03,509 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:03,661 : Line: 129 -
+Start of epoch 81
+2022-01-27 20:15:03,703 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:03,876 : Line: 129 -
+Start of epoch 82
+2022-01-27 20:15:03,923 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:04,088 : Line: 129 -
+Start of epoch 83
+2022-01-27 20:15:04,136 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:04,300 : Line: 129 -
+Start of epoch 84
+2022-01-27 20:15:04,354 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:04,505 : Line: 129 -
+Start of epoch 85
+2022-01-27 20:15:04,547 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:04,704 : Line: 129 -
+Start of epoch 86
+2022-01-27 20:15:04,751 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:04,903 : Line: 129 -
+Start of epoch 87
+2022-01-27 20:15:04,953 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:05,098 : Line: 129 -
+Start of epoch 88
+2022-01-27 20:15:05,145 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:05,303 : Line: 129 -
+Start of epoch 89
+2022-01-27 20:15:05,344 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:05,486 : Line: 129 -
+Start of epoch 90
+2022-01-27 20:15:05,533 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:05,690 : Line: 129 -
+Start of epoch 91
+2022-01-27 20:15:05,731 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:05,871 : Line: 129 -
+Start of epoch 92
+2022-01-27 20:15:05,913 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:06,075 : Line: 129 -
+Start of epoch 93
+2022-01-27 20:15:06,115 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:06,324 : Line: 129 -
+Start of epoch 94
+2022-01-27 20:15:06,368 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:06,514 : Line: 129 -
+Start of epoch 95
+2022-01-27 20:15:06,557 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:06,741 : Line: 129 -
+Start of epoch 96
+2022-01-27 20:15:06,800 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:06,968 : Line: 129 -
+Start of epoch 97
+2022-01-27 20:15:07,010 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:07,261 : Line: 129 -
+Start of epoch 98
+2022-01-27 20:15:07,320 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:07,473 : Line: 129 -
+Start of epoch 99
+2022-01-27 20:15:07,515 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2022-01-27 20:15:07,692 : Line: 129 -
+Start of epoch 100
+2022-01-27 20:15:07,909 : Line: 313 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Traceback (most recent call last):
+  File "src/train.py", line 155, in <module>
+    model.save(MODEL_PATH)
+  File "/home/aadi/miniconda3/envs/pgrad-thesis/lib/python3.8/site-packages/keras/engine/training.py", line 2145, in save
+    save.save_model(self, filepath, overwrite, include_optimizer, save_format,
+  File "/home/aadi/miniconda3/envs/pgrad-thesis/lib/python3.8/site-packages/keras/saving/save.py", line 145, in save_model
+    hdf5_format.save_model_to_hdf5(
+  File "/home/aadi/miniconda3/envs/pgrad-thesis/lib/python3.8/site-packages/keras/saving/hdf5_format.py", line 131, in save_model_to_hdf5
+    f.close()
+  File "/home/aadi/miniconda3/envs/pgrad-thesis/lib/python3.8/site-packages/h5py/_hl/files.py", line 457, in close
+    h5i.dec_ref(id_)
+KeyboardInterrupt

@@ -1,29 +1,22 @@
 import tensorflow as tf
 
 
-def mean_iou(y_true, y_pred):
-    y_true = tf.cast(y_true, tf.dtypes.float64)
-    y_pred = tf.cast(y_pred, tf.dtypes.float64)
-    I = tf.reduce_sum(y_pred * y_true, axis=(1, 2))
-    U = tf.reduce_sum(y_pred + y_true, axis=(1, 2)) - I
-    return tf.reduce_mean(I / U)
+class DiceMetric(tf.keras.metrics.Metric):
+    def __init__(self, name='dice_loss_metric', smooth=1e-6, gama=2, **kwargs):
+        super(DiceMetric, self).__init__(name=name, **kwargs)
+        self.dice = self.add_weight(name='dice', initializer='zeros')
+        self.smooth = smooth
+        self.gama = gama
 
+    def update_state(self, y_true, y_pred, sample_weight=None):
+        y_true = tf.cast(y_true, tf.float32)
+        y_pred = tf.cast(y_pred, tf.float32)
+        nominator = 2 * \
+            tf.reduce_sum(tf.multiply(y_pred, y_true)) + self.smooth
+        denominator = tf.reduce_sum(
+            y_pred ** self.gama) + tf.reduce_sum(y_true ** self.gama) + self.smooth
+        result = 1 - tf.divide(nominator, denominator)
+        self.dice.assign(tf.divide(nominator, denominator))
 
-def dice_coefficient(y_true, y_pred, smooth=1):
-    intersection = tf.reduce_sum(y_true * y_pred, axis=[1, 2, 3])
-    union = tf.reduce_sum(
-        y_true, axis=[1, 2, 3]) + tf.reduce_sum(y_pred, axis=[1, 2, 3])
-    dice = tf.reduce_mean((2. * intersection + smooth) /
-                          (union + smooth), axis=0)
-    return dice
-
-# LOSS FUNCTIONS
-#works (apparently)
-
-
-def cross_ent_loss(model, input, expected):
-    actual = model.call(input)
-    cross_ent = tf.nn.sigmoid_cross_entropy_with_logits(
-        logits=actual, labels=expected)
-    log_loss = -tf.reduce_sum(cross_ent, axis=[0, 1, 2])
-    return -tf.reduce_mean(log_loss)
+    def result(self):
+        return self.dice
