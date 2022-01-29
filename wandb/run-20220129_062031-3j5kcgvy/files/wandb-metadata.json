@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.16-1-MANJARO-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-29T10:20:32.833945",
+    "startedAt": "2022-01-29T10:20:31.230006",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "src/train.py",
+    "codePath": "src/train.py",
+    "git": {
+        "remote": "git@github.com:aadi350/pgrad-thesis.git",
+        "commit": "e43af1ae256c656d43c6ce73e2b401287999facf"
+    },
+    "email": "a.aadi380@gmail.com",
+    "root": "/storage/projects/pgrad-thesis",
+    "host": "r10-manjaro",
+    "username": "aadi",
+    "executable": "/home/aadi/miniconda3/envs/pgrad-thesis/bin/python"
+}

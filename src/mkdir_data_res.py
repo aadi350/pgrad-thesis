@@ -5,11 +5,12 @@
 
         * make_data_folder - creates pair of matching folders
 """
-#/usr/bin/env python3
+# /usr/bin/env python3
 
 import os
 import sys
-from utils import from_data, from_res
+from src.models.utils import from_data, from_res
+
 
 @from_data
 def make_data_folder(name: str):
@@ -17,6 +18,7 @@ def make_data_folder(name: str):
     os.mkdir(f'before/{name}')
     os.mkdir(f'after/{name}')
 
+
 if __name__ == '__main__':
-   folder_name = sys.argv[-1]
-   make_data_folder(folder_name)
+    folder_name = sys.argv[-1]
+    make_data_folder(folder_name)

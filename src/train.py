@@ -16,7 +16,7 @@ import matplotlib
 from PIL import Image
 from skimage import io
 import pprint
-from utils import show_progress
+from models.utils import show_progress
 import numpy as np
 from logging import log, info, debug
 from PIL import Image
@@ -25,7 +25,7 @@ import numpy as np
 import pandas as pd
 import cv2 as cv
 
-from build_data import build_data, build_test_data
+from build_data import build_data_grey, build_test_data
 from models.model import build_model
 from losses import DiceLoss
 from metrics import DiceMetric
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     }
 
     model = build_model()
-    train_data, val_data = build_data(BATCH_SIZE, N)
+    train_data, val_data = build_data_grey(BATCH_SIZE, N)
 
     X_test, label_test = build_test_data()
     # initialize METRICS for Tracking progress
@@ -120,6 +120,7 @@ if __name__ == '__main__':
     checkpoint_directory = "./tmp/training_checkpoints"
     checkpoint_prefix = os.path.join(checkpoint_directory, "ckpt")
 
+    quit()
     # TRAINING LOOP
     for epoch in range(EPOCHS):
         info(f'\nStart of epoch {epoch}')
