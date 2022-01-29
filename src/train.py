@@ -24,14 +24,19 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 import cv2 as cv
-
-from build_data import build_data_grey, build_test_data
+import sys
+from build_data import build_data_grey, build_data_rgb, build_test_data
 from models.model import build_model
+from models.segnet import build_segnet
 from losses import DiceLoss
 from metrics import DiceMetric
 
+
+sys.path.append('/home/aadi/projects/pgrad-thesis/src/models')
+
 # LOGGING/CONFIG FOR TF
-wandb.init(project="pgrad-thesis", entity="aadi350", tags=['test'])
+wandb.init(mode='disabled', project="pgrad-thesis",
+           entity="aadi350", tags=['test'])
 
 gpu_devices = tf.config.experimental.list_physical_devices('GPU')
 for device in gpu_devices:
@@ -53,20 +58,26 @@ if __name__ == '__main__':
     # MODEL CONFIG/PARAMS
     LEARNING_RATE = 1e-3
     EPOCHS = 1000
-    BATCH_SIZE = 1000
-    N = 300
+    BATCH_SIZE = 100
+    TRAIN_SIZE = 300
+    TEST_SIZE = 200
+    # ensure clean divides
+    assert TRAIN_SIZE % BATCH_SIZE == 0
+    assert TEST_SIZE % BATCH_SIZE == 0
     wandb.config = {
         "learning_rate": LEARNING_RATE,
         "epochs": EPOCHS,
         "batch_size": None,
-        "n_samples": N,
+        "n_samples": TRAIN_SIZE,
         "color": 'greyscale'
     }
 
-    model = build_model()
-    train_data, val_data = build_data_grey(BATCH_SIZE, N)
+    # model = build_model()
+    model = build_segnet()
+    # train_data, val_data = build_data_grey(BATCH_SIZE, N)
+    train_data, val_data = build_data_rgb(BATCH_SIZE, TRAIN_SIZE, (256, 256))
 
-    X_test, label_test = build_test_data()
+    X_test, label_test = build_test_data(BATCH_SIZE, TEST_SIZE)
     # initialize METRICS for Tracking progress
     train_dice = DiceMetric()
     test_dice = DiceMetric()
@@ -120,7 +131,6 @@ if __name__ == '__main__':
     checkpoint_directory = "./tmp/training_checkpoints"
     checkpoint_prefix = os.path.join(checkpoint_directory, "ckpt")
 
-    quit()
     # TRAINING LOOP
     for epoch in range(EPOCHS):
         info(f'\nStart of epoch {epoch}')

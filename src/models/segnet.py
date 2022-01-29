@@ -1,12 +1,44 @@
 import tensorflow as tf
 from tensorflow.keras.models import *
 from tensorflow.keras.layers import *
-from constants import INPUT_SHAPE
-from utils import *
+from models.utils import *
 from tensorflow.keras.utils import plot_model
-IMAGE_ORDERING = "channels_last"
 
+IMAGE_ORDERING = "channels_last"
+INPUT_SHAPE = (256, 256, 3)
+IMAGE_H_W = (256, 256)
 pretrained_url = "https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5"
+
+
+def from_data(func):
+    def wrapper(*args, **kwargs):
+        os.chdir(DATA_PATH)
+        ret = func(*args, **kwargs)
+        os.chdir(PROJ_PATH)
+        return ret
+    return wrapper
+
+
+def from_res(func):
+    def wrapper(*args, **kwargs):
+        os.chdir(RES_PATH)
+        ret = func(*args, **kwargs)
+        os.chdir(PROJ_PATH)
+        return ret
+    return wrapper
+
+
+def show_progress(it, milestones=1):
+    for i, x in enumerate(it):
+        yield x
+        processed = i + 1
+        if processed % milestones == 0:
+            logging.info('Processed %s elements' % processed)
+
+
+def to_rgb(img: np.array):
+    '''Converts given image to RHB and normalized to [0,1]'''
+    raise NotImplementedError
 
 
 def vgg_encoder(input_shape, channels=3):
@@ -128,7 +160,10 @@ A fixed pooling window of
 Smaller kernels decrease context and larger ones potentially destroy thin structures'''
 
 
-def segnet(encoder, input_shape=INPUT_SHAPE, enc_level=3, channels=3):
+def build_segnet(encoder=None, input_shape=INPUT_SHAPE, enc_level=3, channels=3):
+    if not encoder:
+        encoder = vgg_encoder
+
     input, stages = encoder(
         input_shape=input_shape, channels=channels
     )
@@ -145,7 +180,7 @@ def segnet(encoder, input_shape=INPUT_SHAPE, enc_level=3, channels=3):
 
 
 if __name__ == '__main__':
-    model = segnet(vgg_encoder, input_shape=(224, 224, 3))
+    model = build_segnet(vgg_encoder, input_shape=(224, 224, 3))
 
     logging.info(model.summary())
     dot_img_file = './tmp/model_1.png'

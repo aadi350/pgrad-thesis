@@ -21,3 +21,5 @@ conda install -y rasterio tqdm
 # Yes, I know there are better ways to do this
 - [x] Get a single training loop done with BW images
 - [x] Add validation step to training loop
+- [x] Add SEGNET and RGB data pipeline
+- [ ] Fix loss function/model output, error where cannot calculate Dice loss

@@ -7,7 +7,6 @@ import tensorflow as tf
 from models.utils import show_progress
 import cv2 as cv
 from difference_functions import basic_subtract
-
 logging.basicConfig(level=DEBUG)
 
 TRAIN_DIR = 'data/train'
@@ -43,25 +42,52 @@ def _build_val_arrays(N=-1):
     return before_val, after_val, label_val
 
 
-def build_data_rgb(batch_size, N=-1):
-    before_train, after_train, label_train = _build_train_arrays(N=N)
-    before_val, after_val, label_val = _build_val_arrays(N=N)
+def _resize_cv(image, image_shape):
+    return cv.resize(image, image_shape)
+
+
+def build_data_rgb(batch_size, N=-1, image_shape=None):
+    before_train, after_train, train_label = _build_train_arrays(N=N)
+    before_val, after_val, val_label = _build_val_arrays(N=N)
 
     train_diff = np.array([basic_subtract(b, a)
                            for (b, a) in zip(before_train, after_train)])
     val_diff = np.array([basic_subtract(b, a)
                          for (b, a) in zip(before_val, after_val)])
 
-    train_data = tf.data.Dataset.from_tensor_slices(
-        (train_diff, label_train)).batch(batch_size=batch_size)
-    val_data = tf.data.Dataset.from_tensor_slices(
-        (val_diff, label_val)).batch(batch_size=batch_size)
+    # train_diff = tf.data.Dataset.from_tensor_slices(
+    #     train_diff).batch(batch_size)
+    # train_label = tf.data.Dataset.from_tensor_slices(
+    #     train_label).batch(batch_size)
 
-    return (train_data, val_data)
+    # val_diff = tf.data.Dataset.from_tensor_slices(
+    #     val_diff).batch(batch_size)
+    # val_label = tf.data.Dataset.from_tensor_slices(
+    #     val_label).batch(batch_size)
+
+    if image_shape:
+        # reshape if pretrained weights expect different input sizes
+        train_diff = [cv.resize(img, image_shape) for img in train_diff]
+        val_diff = [cv.resize(img, image_shape) for img in val_diff]
+        train_label = [cv.resize(img, image_shape) for img in train_label]
+        val_label = [cv.resize(img, image_shape) for img in val_label]
+
+    train_data = tf.data.Dataset.from_tensor_slices(
+        (train_diff, train_label)).batch(batch_size=batch_size)
+    val_data = tf.data.Dataset.from_tensor_slices(
+        (val_diff, val_label)).batch(batch_size=batch_size)
+    # need to resize X and y individually
+    # train_data = tf.data.Dataset.from_tensor_slices(
+    # (train_diff, label_train)).batch(batch_size=batch_size)
+    # val_data = tf.data.Dataset.from_tensor_slices(
+    # (val_diff, label_val)).batch(batch_size=batch_size)
+
+    return train_data, val_data
 
 
 @tf.function
 def build_data_grey(batch_size, N=-1):
+    # TODO refactor to return separate tf.Data datasets in a tuple
 
     before_train, after_train, label_train = _build_train_arrays(N=N)
     before_val, after_val, label_val = _build_val_arrays(N=N)
@@ -107,4 +133,6 @@ def build_test_data(batch_size=1000, N=-1, return_labels_as_array=True):
 
 if __name__ == '__main__':
     # train_data, val_data = build_data_grey(100, 1000)
-    build_data_rgb(100, 500)
+    (train_diff, train_label), (val_diff, val_label) = build_data_rgb(
+        100, 500, image_shape=(228, 228))
+    # print(train_diff)
