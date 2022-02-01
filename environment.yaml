@@ -1,0 +1,18 @@
+name: pgrad-thesis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.2
+  - tensorflow-gpu
+  - cucim
+  - rasterio
+  - autopep8
+  - tqdm
+  - scikit-learn
+  - pandas
+  - pylint
+  - plotly=5.5.0
+  - opencv
+prefix: /home/aadi/miniconda3/envs/pgrad-thesis

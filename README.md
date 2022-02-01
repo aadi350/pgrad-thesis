@@ -22,4 +22,7 @@ conda install -y rasterio tqdm
 - [x] Get a single training loop done with BW images
 - [x] Add validation step to training loop
 - [x] Add SEGNET and RGB data pipeline
-- [ ] Fix loss function/model output, error where cannot calculate Dice loss
+- [ ] Recheck SegNET architecture (not seeing skip connections in image)
+- [x] Use cuCIM.skimage.transform.resize instead of cv2.resize
+- [ ] Fix loss function/model output, error where cannot calculate Dice loss, fix model output instead to select only channel 1
+- [ ] Store differenced images separately, then using ImageGenerator to reference differenced folder

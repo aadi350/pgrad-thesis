@@ -25,12 +25,14 @@ import numpy as np
 import pandas as pd
 import cv2 as cv
 import sys
-from build_data import build_data_grey, build_data_rgb, build_test_data
+from build_data import build_data_grey, build_data_rgb, build_differenced_data, build_test_data
 from models.model import build_model
-from models.segnet import build_segnet
+from models.segnet import INPUT_SHAPE, build_segnet
 from losses import DiceLoss
 from metrics import DiceMetric
 
+
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
 sys.path.append('/home/aadi/projects/pgrad-thesis/src/models')
 
@@ -38,9 +40,6 @@ sys.path.append('/home/aadi/projects/pgrad-thesis/src/models')
 wandb.init(mode='disabled', project="pgrad-thesis",
            entity="aadi350", tags=['test'])
 
-gpu_devices = tf.config.experimental.list_physical_devices('GPU')
-for device in gpu_devices:
-    tf.config.experimental.set_memory_growth(device, True)
 
 io.use_plugin('pil')
 matplotlib.use('TkAgg')
@@ -58,7 +57,7 @@ if __name__ == '__main__':
     # MODEL CONFIG/PARAMS
     LEARNING_RATE = 1e-3
     EPOCHS = 1000
-    BATCH_SIZE = 100
+    BATCH_SIZE = 25
     TRAIN_SIZE = 300
     TEST_SIZE = 200
     # ensure clean divides
@@ -75,7 +74,9 @@ if __name__ == '__main__':
     # model = build_model()
     model = build_segnet()
     # train_data, val_data = build_data_grey(BATCH_SIZE, N)
-    train_data, val_data = build_data_rgb(BATCH_SIZE, TRAIN_SIZE, (256, 256))
+    #train_data, val_data = build_data_rgb(BATCH_SIZE, TRAIN_SIZE, (256, 256))
+    train_data = build_differenced_data(N=500, batch_size=100, train=True)
+    val_data = build_differenced_data(N=500, batch_size=100, train=False, val=True, test=False)
 
     X_test, label_test = build_test_data(BATCH_SIZE, TEST_SIZE)
     # initialize METRICS for Tracking progress
@@ -84,9 +85,10 @@ if __name__ == '__main__':
     val_dice = DiceMetric()
 
     # initialize Dice LOSS for training step
-    dice_loss = DiceLoss()
-
+    # dice_loss = DiceLoss()
+    bce_loss = tf.keras.losses.BinaryCrossentropy(from_logits=False)
     #--------------------------------------TENSORFLOW TRAINING LOOP STEPS---------------------------------#
+
     @tf.function
     def train_step(model, input, labels, optimizer):
         """Executes one training step and returns the loss.
@@ -97,7 +99,8 @@ if __name__ == '__main__':
         with tf.GradientTape() as tape:
             logits = model(input, training=True)
             # Instantiating DiceLoss() is for passing into model constructor
-            loss = dice_loss(labels, logits)
+            # loss = dice_loss(labels, logits)
+            loss = bce_loss(labels, logits)
             info(loss)
 
             grad = tape.gradient(loss, model.trainable_variables)
@@ -167,6 +170,6 @@ if __name__ == '__main__':
         fig.add_trace(px.imshow(label_test[0], binary_string=True,
                                 aspect='equal').data[0], row=1, col=1)
         fig.show()
-        break
+
         # save model
     model.save(MODEL_PATH)

@@ -1,3 +1,4 @@
+from configparser import Interpolation
 import tensorflow as tf
 from tensorflow.keras.models import *
 from tensorflow.keras.layers import *
@@ -33,7 +34,7 @@ def show_progress(it, milestones=1):
         yield x
         processed = i + 1
         if processed % milestones == 0:
-            logging.info('Processed %s elements' % processed)
+            print('Processed %s elements' % processed)
 
 
 def to_rgb(img: np.array):
@@ -47,7 +48,7 @@ def vgg_encoder(input_shape, channels=3):
     '''
 
     input_height, input_width, channels = input_shape
-    img_input = Input(shape=(input_height, input_width, channels))
+    img_input = Input(shape=input_shape)
 
     x = Conv2D(64, (3, 3), activation='relu', padding='same',
                name='block1_conv1', data_format=IMAGE_ORDERING)(img_input)
@@ -107,7 +108,7 @@ def vgg_encoder(input_shape, channels=3):
     return img_input, (f1, f2, f3, f4, f5)
 
 
-def decoder(f, n):
+def decoder(f, n, n_up):
 
     output = f
 
@@ -123,11 +124,12 @@ def decoder(f, n):
               data_format=IMAGE_ORDERING))(output)
     output = (BatchNormalization())(output)
 
-    output = (UpSampling2D((2, 2), data_format=IMAGE_ORDERING))(output)
-    output = (ZeroPadding2D((1, 1), data_format=IMAGE_ORDERING))(output)
-    output = (Conv2D(128, (3, 3), padding='valid',
-                     data_format=IMAGE_ORDERING))(output)
-    output = (BatchNormalization())(output)
+    for _ in range(n_up-2):
+        output = (UpSampling2D((2, 2), data_format=IMAGE_ORDERING))(output)
+        output = (ZeroPadding2D((1, 1), data_format=IMAGE_ORDERING))(output)
+        output = (Conv2D(128, (3, 3), padding='valid',
+                         data_format=IMAGE_ORDERING))(output)
+        output = (BatchNormalization())(output)
 
     output = (UpSampling2D((2, 2), data_format=IMAGE_ORDERING))(output)
     output = (ZeroPadding2D((1, 1), data_format=IMAGE_ORDERING))(output)
@@ -137,7 +139,8 @@ def decoder(f, n):
 
     output = Conv2D(n, (3, 3), padding='same',
                     data_format=IMAGE_ORDERING)(output)
-
+    output = tf.keras.layers.Resizing(
+        256, 256, interpolation='bilinear')(output)
     return output
 
 # Apply softmax activation to output
@@ -170,7 +173,7 @@ def build_segnet(encoder=None, input_shape=INPUT_SHAPE, enc_level=3, channels=3)
 
     # choosed what level to take output at
     features = stages[enc_level]
-    output = decoder(features, 2)
+    output = decoder(features, 1, 4)
 
     output = Activation('softmax')(output)
 

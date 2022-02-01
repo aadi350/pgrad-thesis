@@ -9,6 +9,7 @@ class DiceMetric(tf.keras.metrics.Metric):
         self.gama = gama
 
     def update_state(self, y_true, y_pred, sample_weight=None):
+        y_pred = tf.squeeze(y_pred)
         y_true = tf.cast(y_true, tf.float32)
         y_pred = tf.cast(y_pred, tf.float32)
         nominator = 2 * \
