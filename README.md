@@ -16,13 +16,14 @@ conda install -y rasterio tqdm
 # Experiment Managment/Tracking
 ## General Notes
 - Dice coefficient (and focal loss) used to evaluate performance, NOT accuracy
-
+- Vanilla segmentation was never the right choice, need some sort of differencing network (need to read)
 
 # Yes, I know there are better ways to do this
 - [x] Get a single training loop done with BW images
 - [x] Add validation step to training loop
 - [x] Add SEGNET and RGB data pipeline
-- [ ] Recheck SegNET architecture (not seeing skip connections in image)
+- [ ]~~Recheck SegNET architecture (not seeing skip connections in image)~~
 - [x] Use cuCIM.skimage.transform.resize instead of cv2.resize
 - [ ] Fix loss function/model output, error where cannot calculate Dice loss, fix model output instead to select only channel 1
-- [ ] Store differenced images separately, then using ImageGenerator to reference differenced folder
+- [x] Store differenced images separately, then using ImageGenerator to reference differenced folder
+- [ ] Implement differencing network

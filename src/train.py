@@ -56,6 +56,7 @@ if __name__ == '__main__':
     #-----------------------------------------------MODEL CONFIG/PARAMS----------------------------------------#
     # MODEL CONFIG/PARAMS
     LEARNING_RATE = 1e-3
+    STEPS_PER_EPOCH = 100
     EPOCHS = 1000
     BATCH_SIZE = 25
     TRAIN_SIZE = 300
@@ -134,42 +135,18 @@ if __name__ == '__main__':
     checkpoint_directory = "./tmp/training_checkpoints"
     checkpoint_prefix = os.path.join(checkpoint_directory, "ckpt")
 
-    # TRAINING LOOP
-    for epoch in range(EPOCHS):
-        info(f'\nStart of epoch {epoch}')
+    model.compile(
+        loss=bce_loss, 
+        optimizer=optimizer,
+        metrics=[DiceMetric()])
+    
+    info(model.summary())
 
-        for step, (x_train, y_train) in enumerate(train_data):
-            train_loss = train_step(model, x_train, y_train, optimizer)
-            with train_summary_writer.as_default():
-                tf.summary.scalar('loss', train_loss, step=epoch)
-                tf.summary.scalar(
-                    'train_dice', train_dice.result(), step=epoch)
+    callbacks = [] # TODO set this up for logging
+    model.fit(train_data,
+        steps_per_epoch=STEPS_PER_EPOCH,
+        epochs=EPOCHS,
+        callbacks=callbacks,)
 
-        for step, (x_val, y_val) in enumerate(val_data):
-            val_step(model, x_val, y_val)
-            with val_summary_writer.as_default():
-                tf.summary.scalar('val_dice', val_dice.result(), step=epoch)
-
-        wandb.log({
-            'train_dice': train_dice.result(),
-            'train_loss': train_loss,
-            'val_dice': val_dice.result()
-        })
-        # save checkpoint every 100 epochs
-        if (epoch % 100 == 0):
-            # save every 100 epochs
-            checkpoint = tf.train.Checkpoint(model)
-            checkpoint.save(file_prefix=checkpoint_prefix)
-        # # output is numpy array
-        # output = model.predict(x_test_data)
-        # # output is tf object if instead output = model(x_test_data)
-        output = model.predict(X_test)
-        fig = make_subplots(rows=2, cols=2)
-        fig.add_trace(px.imshow(output[0], binary_string=True,
-                                aspect='equal').data[0], row=1, col=2)
-        fig.add_trace(px.imshow(label_test[0], binary_string=True,
-                                aspect='equal').data[0], row=1, col=1)
-        fig.show()
-
-        # save model
+    
     model.save(MODEL_PATH)
