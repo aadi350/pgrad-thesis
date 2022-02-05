@@ -24,6 +24,7 @@ conda install -y rasterio tqdm
 - [x] Add SEGNET and RGB data pipeline
 - [ ]~~Recheck SegNET architecture (not seeing skip connections in image)~~
 - [x] Use cuCIM.skimage.transform.resize instead of cv2.resize
-- [ ] Fix loss function/model output, error where cannot calculate Dice loss, fix model output instead to select only channel 1
+- [x] Fix loss function/model output, error where cannot calculate Dice loss, fix model output instead to select only channel 1
 - [x] Store differenced images separately, then using ImageGenerator to reference differenced folder
-- [ ] Implement differencing network
+- [x] Implement differencing network
+- [ ] Run training for Siamese network overnight

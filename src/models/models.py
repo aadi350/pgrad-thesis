@@ -1,8 +1,11 @@
 from rasterio import pad
 import tensorflow as tf
-from .constants import *
 from tensorflow.keras.layers import *
 from tensorflow.keras import layers
+
+
+INPUT_SHAPE = (256, 256, 3)
+IMAGE_H_W = (256, 256)
 
 
 def build_resnet():

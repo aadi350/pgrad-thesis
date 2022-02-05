@@ -35,8 +35,8 @@ def show_progress(it, milestones=1):
         yield x
         processed = i + 1
         if processed % milestones == 0:
-            #logging.info('Processed %s elements' % processed)
-            continue
+            logging.info('Processed %s elements' % processed)
+            # continue
 
 
 def to_rgb(img: np.array):
