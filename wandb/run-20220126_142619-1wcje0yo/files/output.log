@@ -1,7 +1,0 @@
-2022-01-26 14:26:23.424818: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2022-01-26 14:26:23.428151: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2022-01-26 14:26:23.428319: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-Traceback (most recent call last):
-  File "src/runall.py", line 156, in <module>
-    (single_grey_test, label_test)).batch(batch_size=BATCH_SIZE)
-NameError: name 'single_grey_test' is not defined

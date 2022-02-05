@@ -1,1 +1,0 @@
-{"train_loss": 0.9666519165039062, "train_dice": -0.970856785774231, "val_dice": -0.9709092378616333, "_runtime": 70, "_timestamp": 1643214486, "_step": 458, "_wandb": {"runtime": 72}}

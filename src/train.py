@@ -26,7 +26,7 @@ import pandas as pd
 import cv2 as cv
 import sys
 from build_data import build_data_grey, build_data_rgb, build_differenced_data, build_test_data
-from models.model import build_model
+from src.models.models import build_resnet
 from models.segnet import INPUT_SHAPE, build_segnet
 from losses import DiceLoss
 from metrics import DiceMetric
@@ -72,12 +72,15 @@ if __name__ == '__main__':
         "color": 'greyscale'
     }
 
-    # model = build_model()
-    model = build_segnet()
+    model = build_resnet()
+    tf.keras.utils.plot_model(
+        model, to_file='test_skip.png', show_shapes=True, show_dtype=True)
+    pdb.set_trace()
     # train_data, val_data = build_data_grey(BATCH_SIZE, N)
     #train_data, val_data = build_data_rgb(BATCH_SIZE, TRAIN_SIZE, (256, 256))
     train_data = build_differenced_data(N=500, batch_size=100, train=True)
-    val_data = build_differenced_data(N=500, batch_size=100, train=False, val=True, test=False)
+    val_data = build_differenced_data(
+        N=500, batch_size=100, train=False, val=True, test=False)
 
     X_test, label_test = build_test_data(BATCH_SIZE, TEST_SIZE)
     # initialize METRICS for Tracking progress
@@ -136,17 +139,16 @@ if __name__ == '__main__':
     checkpoint_prefix = os.path.join(checkpoint_directory, "ckpt")
 
     model.compile(
-        loss=bce_loss, 
+        loss=bce_loss,
         optimizer=optimizer,
         metrics=[DiceMetric()])
-    
+
     info(model.summary())
 
-    callbacks = [] # TODO set this up for logging
+    callbacks = []  # TODO set this up for logging
     model.fit(train_data,
-        steps_per_epoch=STEPS_PER_EPOCH,
-        epochs=EPOCHS,
-        callbacks=callbacks,)
+              steps_per_epoch=STEPS_PER_EPOCH,
+              epochs=EPOCHS,
+              callbacks=callbacks,)
 
-    
     model.save(MODEL_PATH)
