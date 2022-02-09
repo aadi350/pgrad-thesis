@@ -185,7 +185,7 @@ def process_path_grey(fp):
     return img
 
 
-def build_data_horizontal_separate(batch_size, buffer_size=1000):
+def build_data_horizontal_separate(batch_size, take, buffer_size=1000):
 
     def train_gen(split='train', data_path='data/'):
         path = data_path + split
@@ -219,7 +219,7 @@ def build_data_horizontal_separate(batch_size, buffer_size=1000):
         .cache()
         .shuffle(buffer_size)
         .batch(batch_size)
-        .repeat()
+        .take(take)
         .prefetch(buffer_size=tf.data.AUTOTUNE))
 
     val_batches = (
@@ -227,7 +227,7 @@ def build_data_horizontal_separate(batch_size, buffer_size=1000):
         .cache()
         .shuffle(buffer_size)
         .batch(batch_size)
-        .repeat()
+        .take(take)
         .prefetch(buffer_size=tf.data.AUTOTUNE))
 
     return train_batches, val_batches

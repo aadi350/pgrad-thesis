@@ -38,7 +38,7 @@ mixed_precision.set_global_policy('mixed_float16')
 sys.path.append('/home/aadi/projects/pgrad-thesis/src/models')
 
 # LOGGING/CONFIG FOR TF
-wandb.init(project="pgrad-thesis",
+wandb.init(mode='disabled', project="pgrad-thesis",
            entity="aadi350", tags=['run'])
 
 
@@ -81,11 +81,12 @@ if __name__ == '__main__':
 
     #-----------------------------------------------MODEL CONFIG/PARAMS----------------------------------------#
     # MODEL CONFIG/PARAMS
+    # TODO: move this to a YAML file
     LEARNING_RATE = 1e-3
     EPOCHS = 1000
     BATCH_SIZE = 25
-    STEPS_PER_EPOCH = 12000 // BATCH_SIZE
-    TRAIN_SIZE = -1
+    TRAIN_SIZE = 300
+    STEPS_PER_EPOCH = TRAIN_SIZE // BATCH_SIZE
     TEST_SIZE = 200
     # ensure clean divides
     if TRAIN_SIZE != -1:
@@ -95,6 +96,7 @@ if __name__ == '__main__':
     wandb.config = {
         "learning_rate": LEARNING_RATE,
         "epochs": EPOCHS,
+        "steps_per_epoch": STEPS_PER_EPOCH,
         "batch_size": BATCH_SIZE,
         "n_samples": TRAIN_SIZE,
         "color": 'full_rgb'
@@ -102,7 +104,8 @@ if __name__ == '__main__':
 
     model = build_siamese_autoencoder()
 
-    train_data, val_data = build_data_horizontal_separate(BATCH_SIZE)
+    train_data, val_data = build_data_horizontal_separate(
+        BATCH_SIZE, take=TRAIN_SIZE)
     logging.info('Data generators loaded')
 
     # initialize METRICS for Tracking progress
@@ -112,7 +115,7 @@ if __name__ == '__main__':
 
     # initialize Dice LOSS for training step
     dice_loss = DiceLoss()
-    bce_loss = tf.keras.losses.BinaryCrossentropy(from_logits=False)
+    bce_loss = tf.keras.losses.BinaryCrossentropy(from_logits=True)
     #--------------------------------------TENSORFLOW TRAINING LOOP STEPS---------------------------------#
 
     @tf.function
@@ -122,15 +125,17 @@ if __name__ == '__main__':
         This function computes the loss and gradients, and uses the latter to
         update the model's parameters.
         """
+        print('train')
         with tf.GradientTape() as tape:
             logits = model(input, training=True)
             # Instantiating DiceLoss() is for passing into model constructor
-            loss = dice_loss(labels, logits)
-            # loss = bce_loss(labels, logits)
-            info(loss)
+            print(logits.shape)
+            # loss = dice_loss(labels, logits)
+            loss = bce_loss(labels, logits)
+        info(loss)
 
-            grad = tape.gradient(loss, model.trainable_variables)
-            optimizer.apply_gradients(zip(grad, model.trainable_variables))
+        grad = tape.gradient(loss, model.trainable_variables)
+        optimizer.apply_gradients(zip(grad, model.trainable_variables))
 
         train_dice.update_state(labels, logits)
         return loss
@@ -140,7 +145,7 @@ if __name__ == '__main__':
         logits = model(input, training=False)
         val_dice.update_state(labels, logits)
 
-        loss = dice_loss(labels, logits)
+        loss = bce_loss(labels, logits)
         return loss
 
     @tf.function
@@ -168,10 +173,13 @@ if __name__ == '__main__':
         print("\nStart of epoch %d" % (epoch,))
         start_time = time.time()
         # Iterate over the batches of the dataset.
-        for step, (x_batch_train, y_batch_train) in enumerate(train_data):
+        tqdm_train = tqdm(train_data)
+        for (x_batch_train, y_batch_train) in tqdm_train:
             loss_value = train_step(
                 model, x_batch_train, y_batch_train, optimizer)
 
+            tqdm_train.set_description(
+                f'Processing epoch: {epoch}, train_loss: {str(loss_value)}')
             wandb.log({
                 'train_loss': loss_value,
                 'epoch': epoch,
@@ -183,9 +191,12 @@ if __name__ == '__main__':
 
         train_dice.reset_states()
         # Run a validation loop at the end of each epoch.
-        for x_batch_val, y_batch_val in val_data:
-            val_loss = val_step(x_batch_val, y_batch_val)
+        tqdm_val = tqdm(val_data)
+        for x_batch_val, y_batch_val in tqdm_val:
+            val_loss = val_step(model, x_batch_val, y_batch_val)
 
+            tqdm_val.set_description(
+                f'Processing epoch: {epoch}, val_loss: {str(val_loss)}')
             wandb.log({
                 'val_dice': val_dice.result()
             })

@@ -15,5 +15,7 @@ class DiceLoss(tf.keras.losses.Loss):
             tf.reduce_sum(tf.multiply(y_pred, y_true)) + self.smooth
         denominator = tf.reduce_sum(
             y_pred ** self.gama) + tf.reduce_sum(y_true ** self.gama) + self.smooth
-        result = 1 - tf.divide(nominator, denominator)
-        return result
+        dice = tf.divide(nominator, denominator)
+        if tf.math.is_nan(dice):
+            return tf.cast(1.0, dtype=tf.float32)
+        return 1 - dice

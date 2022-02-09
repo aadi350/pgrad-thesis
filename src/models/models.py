@@ -149,6 +149,8 @@ def build_siamese_autoencoder():
     output = Conv2DTranspose(1, (2, 2), padding='same')(output)
     # shape =  256, 256, 1
 
-    model = tf.keras.models.Model(inputs=[left_in, right_in], outputs=output)
+    output = tf.keras.activations.sigmoid(output)
+
+    model = tf.keras.models.Model(inputs=[right_in, left_in], outputs=output)
 
     return model
