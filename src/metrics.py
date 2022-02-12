@@ -16,8 +16,7 @@ class DiceMetric(tf.keras.metrics.Metric):
             tf.reduce_sum(tf.multiply(y_pred, y_true)) + self.smooth
         denominator = tf.reduce_sum(
             y_pred ** self.gama) + tf.reduce_sum(y_true ** self.gama) + self.smooth
-        result = 1 - tf.divide(nominator, denominator)
-        self.dice.assign(tf.divide(nominator, denominator))
+        self.dice.assign(1 - tf.divide(nominator, denominator))
 
     def result(self):
         return self.dice
