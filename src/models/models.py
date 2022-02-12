@@ -1,7 +1,7 @@
-from rasterio import pad
 import tensorflow as tf
 from tensorflow.keras.layers import *
 from tensorflow.keras import layers
+from tensorflow.keras.models import Model
 
 NUM_CLASSES = 2
 INPUT_SHAPE = (256, 256, 3)
@@ -39,8 +39,8 @@ def build_resnet():
 # ---------------------SIAMESE MODEL -------------------- #
 
 
-def build_in_channel(name):
-    inputs = Input(shape=INPUT_SHAPE, name=name)
+def build_in_channel():
+    inputs = Input(shape=INPUT_SHAPE)
     out_0 = Conv2D(16, (2, 2), padding='same')(inputs)
     out_0 = Conv2D(16, (2, 2), padding='same')(out_0)
 
@@ -73,13 +73,20 @@ def build_in_channel(name):
     out_3 = Conv2D(128, (2, 2),  padding='same')(out_3)
     # shape = 32, 32, 128
 
-    return inputs, (out_0, out_1, out_2, out_3)
+    return Model(inputs=inputs, outputs=(out_0, out_1, out_2, out_3))
 
 
-def build_siamese_autoencoder(num_classes=NUM_CLASSES):
+def build_siamese_autoencoder(NUM_CLASSES=2):
+    left_in = Input(shape=INPUT_SHAPE)
+    right_in = Input(shape=INPUT_SHAPE)
 
-    left_in, (l_out_0, l_out_1, l_out_2, l_out_3) = build_in_channel('left')
-    right_in, (r_out_0, r_out_1, r_out_2, r_out_3) = build_in_channel('right')
+    # shared weights
+    fe = build_in_channel()
+
+    left_out, right_out = fe(left_in), fe(right_in)
+
+    (l_out_0, l_out_1, l_out_2, l_out_3) = left_out
+    (r_out_0, r_out_1, r_out_2, r_out_3) = right_out
 
     output = subtract([l_out_3, r_out_3])
     # shape = 32, 32, 128
@@ -152,3 +159,9 @@ def build_siamese_autoencoder(num_classes=NUM_CLASSES):
     model = tf.keras.models.Model(inputs=[right_in, left_in], outputs=output)
 
     return model
+
+
+if __name__ == '__main__':
+    model = build_siamese_autoencoder()
+    tf.keras.utils.plot_model(model, to_file='siamese_shared.png')
+    print(model.summary())
