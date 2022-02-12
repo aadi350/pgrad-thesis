@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import *
 from tensorflow.keras import layers
 
-
+NUM_CLASSES = 2
 INPUT_SHAPE = (256, 256, 3)
 IMAGE_H_W = (256, 256)
 
@@ -76,7 +76,7 @@ def build_in_channel(name):
     return inputs, (out_0, out_1, out_2, out_3)
 
 
-def build_siamese_autoencoder():
+def build_siamese_autoencoder(num_classes=NUM_CLASSES):
 
     left_in, (l_out_0, l_out_1, l_out_2, l_out_3) = build_in_channel('left')
     right_in, (r_out_0, r_out_1, r_out_2, r_out_3) = build_in_channel('right')
@@ -146,10 +146,8 @@ def build_siamese_autoencoder():
     # shape = 256, 256, 32
     output = Conv2DTranspose(32, (2, 2), padding='same')(output)
     output = Conv2DTranspose(16, (2, 2), padding='same')(output)
-    output = Conv2DTranspose(1, (2, 2), padding='same')(output)
-    # shape =  256, 256, 1
-
-    output = tf.keras.activations.sigmoid(output)
+    output = Conv2DTranspose(NUM_CLASSES, (2, 2), padding='same')(output)
+    # shape =  256, 256, 2
 
     model = tf.keras.models.Model(inputs=[right_in, left_in], outputs=output)
 

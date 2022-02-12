@@ -179,10 +179,22 @@ def process_path_rgb(fp):
     return img
 
 
+def process_path_bin(fp: str) -> tf.Tensor:
+    img = process_path_grey(fp)
+    img = binarize_label(img)
+    return img
+
+
 def process_path_grey(fp):
     img = tf.io.read_file(fp)
     img = decode_grey(img)
     return img
+
+
+def binarize_label(t: tf.Tensor) -> tf.Tensor:
+    t = tf.where(t == 255, 1, 0)
+    t = tf.cast(t, dtype=tf.uint8)
+    return t
 
 
 def build_data_horizontal_separate(batch_size, take, buffer_size=1000):
@@ -194,7 +206,7 @@ def build_data_horizontal_separate(batch_size, take, buffer_size=1000):
 
             t1 = process_path_rgb(f'data/{split}/time1/' + t1)
             t2 = process_path_rgb(f'data/{split}/time2/' + t2)
-            l = process_path_grey(f'data/{split}/label/' + l)
+            l = process_path_bin(f'data/{split}/label/' + l)
 
             yield (t1, t2), l
 
@@ -205,7 +217,7 @@ def build_data_horizontal_separate(batch_size, take, buffer_size=1000):
 
             t1 = process_path_rgb(f'data/{split}/time1/' + t1)
             t2 = process_path_rgb(f'data/{split}/time2/' + t2)
-            l = process_path_grey(f'data/{split}/label/' + l)
+            l = process_path_bin(f'data/{split}/label/' + l)
 
             yield (t1, t2), l
 
@@ -227,7 +239,6 @@ def build_data_horizontal_separate(batch_size, take, buffer_size=1000):
         .cache()
         .shuffle(buffer_size)
         .batch(batch_size)
-        .take(take)
         .prefetch(buffer_size=tf.data.AUTOTUNE))
 
     return train_batches, val_batches
